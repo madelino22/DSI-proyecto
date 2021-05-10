@@ -30,7 +30,7 @@
             <ColumnDefinition Width="3*"></ColumnDefinition>
             <ColumnDefinition Width="3*"></ColumnDefinition>
         </Grid.ColumnDefinitions>
-        <Image x:ConnectionId='2' x:Name="movilGraficosImagen" Source="Assets/movilPausa.png" Grid.Column="1"></Image>
+        <Image x:ConnectionId='2' x:Name="movilIdiomaImagen" Source="Assets/movilOpciones.png" Grid.Column="1"></Image>
         <Grid Grid.Column="1">
             <Grid.RowDefinitions>
                 <RowDefinition Height="*"></RowDefinition>
