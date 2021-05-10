@@ -27,5 +27,9 @@ namespace DSI_Proyecto
             this.InitializeComponent();
         }
 
+        private void OptionsButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(movilOpciones0));
+        }
     }
 }

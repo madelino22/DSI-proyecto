@@ -26,5 +26,24 @@ namespace DSI_Proyecto
         {
             this.InitializeComponent();
         }
+
+        private void IdiomaButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(movilIdioma));
+        }
+
+        private void GraficosButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(movilGraficos));
+        }
+
+        private void salirButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(MenuPrincipal));
+        }
+        private void backButton_Click(object sender, RoutedEventArgs e)
+        {
+            App.TryGoBack();
+        }
     }
 }

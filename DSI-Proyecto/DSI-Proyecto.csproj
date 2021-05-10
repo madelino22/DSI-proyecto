@@ -128,6 +128,12 @@
     <Compile Include="MenuPrincipal.xaml.cs">
       <DependentUpon>MenuPrincipal.xaml</DependentUpon>
     </Compile>
+    <Compile Include="movilGraficos.xaml.cs">
+      <DependentUpon>movilGraficos.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="movilIdioma.xaml.cs">
+      <DependentUpon>movilIdioma.xaml</DependentUpon>
+    </Compile>
     <Compile Include="movilOpciones0.xaml.cs">
       <DependentUpon>movilOpciones0.xaml</DependentUpon>
     </Compile>
@@ -186,6 +192,14 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="MenuPrincipal.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="movilGraficos.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="movilIdioma.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

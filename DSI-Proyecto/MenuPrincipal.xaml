@@ -54,7 +54,7 @@
             </Button>
 
 
-            <Button  x:Name="OptionsButton" Style="{StaticResource EstiloBotones}" IsTabStop="True" TabIndex="3">
+            <Button  x:Name="OptionsButton" Style="{StaticResource EstiloBotones}" IsTabStop="True" TabIndex="3" Click="OptionsButton_Click">
                 <StackPanel HorizontalAlignment="Right" Orientation="Horizontal">
                     <Image Source="Assets/opciones.png" Height="45"/>
                     <TextBlock Text="Opciones" Foreground="White"

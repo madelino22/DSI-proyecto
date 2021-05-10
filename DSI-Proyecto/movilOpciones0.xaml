@@ -7,8 +7,58 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-
+    <Page.Resources>
+        <Style x:Key="EstiloBotones" TargetType="Button">
+            <Setter Property="FontSize" Value="30" />
+            <Setter Property="HorizontalAlignment" Value="Center" />
+            <Setter Property="Margin" Value="0,5,0,0" />
+            <Setter Property="CornerRadius" Value="15" />
+            <Setter Property="Background" Value="Purple" />
+            <Setter Property="Width" Value="300" />
+        </Style>
+        <Style x:Key="EstiloSliders" TargetType="Slider">
+            <Setter Property="HorizontalAlignment" Value="Center" />
+            <Setter Property="Margin" Value="0,5,0,0" />
+            <Setter Property="CornerRadius" Value="15" />
+            <Setter Property="Background" Value="Purple" />
+            <Setter Property="Width" Value="300" />
+        </Style>
+    </Page.Resources>
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="3*"></ColumnDefinition>
+            <ColumnDefinition Width="3*"></ColumnDefinition>
+            <ColumnDefinition Width="3*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Image x:Name="movilOpciones" Source="Assets/movilOpciones.png" Grid.Column="1"></Image>
+        <Grid Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <Button x:Name="backButton" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Left" Style="{StaticResource NavigationBackButtonNormalStyle}" Click="backButton_Click" Margin="56,93,0,0"/>
+            <StackPanel x:Name="panelOpciones" Grid.Row="2" Grid.RowSpan="3" VerticalAlignment="Center" HorizontalAlignment="Center" Spacing="25">
+
+                <Slider Width="100" Style="{StaticResource EstiloSliders}"/>
+                <Slider Width="100" Style="{StaticResource EstiloSliders}"/>
+                <Button x:Name="IdiomaButton" Content="Idioma" Style="{StaticResource EstiloBotones}" Click="IdiomaButton_Click"/>
+                <Button x:Name="GraficosButton" Content="Gráficos" Style="{StaticResource EstiloBotones}" Click="GraficosButton_Click"/>
+                <Button x:Name="salirButton" Content="Salir" Style="{StaticResource EstiloBotones}" Click="salirButton_Click"/>
+            </StackPanel>
+            <StackPanel x:Name="panelImagenes" Grid.Row="2" Grid.RowSpan="3" VerticalAlignment="Top" HorizontalAlignment="Left" Spacing="20" Margin="95,30,0,0" Height="379">
+                <Image Source="Assets/sonido.png" Height="58" Width="60" Margin="0,0,0,0" />
+                <Image Source="Assets/musica.png" Height="58" Width="60" Margin="0,-10,0,0" />
+                <Image Source="Assets/idiomas.png" Height="40" Width="60" Margin="0,0,0,0" />
+                <Image Source="Assets/graficos.png" Height="40" Width="60" Margin="0,30,0,0" />
+                <Image Source="Assets/salirpartida.png" Height="40" Width="60" Margin="0,20,0,0" />
+            </StackPanel>
+        </Grid>
 
     </Grid>
 </Page>

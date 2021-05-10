@@ -1,0 +1,60 @@
+﻿<Page
+    x:Class="DSI_Proyecto.movilIdioma"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:DSI_Proyecto"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Page.Resources>
+        <Style x:Key="EstiloBotones" TargetType="Button">
+            <Setter Property="FontSize" Value="30" />
+            <Setter Property="HorizontalAlignment" Value="Center" />
+            <Setter Property="Margin" Value="0,5,0,0" />
+            <Setter Property="CornerRadius" Value="15" />
+            <Setter Property="Background" Value="Purple" />
+            <Setter Property="Width" Value="300" />
+        </Style>
+        <Style x:Key="EstiloSliders" TargetType="Slider">
+            <Setter Property="HorizontalAlignment" Value="Center" />
+            <Setter Property="Margin" Value="0,5,0,0" />
+            <Setter Property="CornerRadius" Value="15" />
+            <Setter Property="Background" Value="Purple" />
+            <Setter Property="Width" Value="300" />
+        </Style>
+    </Page.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="3*"></ColumnDefinition>
+            <ColumnDefinition Width="3*"></ColumnDefinition>
+            <ColumnDefinition Width="3*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Image x:Name="movilGraficosImagen" Source="Assets/movilIdioma.png" Grid.Column="1"></Image>
+        <Grid Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <Button x:Name="backButton" Grid.Row="1" VerticalAlignment="Top" Style="{StaticResource NavigationBackButtonNormalStyle}" Click="backButton_Click" Margin="56,93,0,0"/>
+            <StackPanel x:Name="panelOpciones" Grid.Row="2" Grid.RowSpan="3" VerticalAlignment="Center" HorizontalAlignment="Center" Spacing="25">
+                <Button x:Name="chinoButton" Content="官话" Style="{StaticResource EstiloBotones}"/>
+                <Button x:Name="españolButton" Content="Español" Style="{StaticResource EstiloBotones}"/>
+                <Button x:Name="inglesButton" Content="English" Style="{StaticResource EstiloBotones}"/>
+                <Button x:Name="japonesButton" Content="日本語" Style="{StaticResource EstiloBotones}"/>
+            </StackPanel>
+            <StackPanel x:Name="panelImagenes" Grid.Row="2" Grid.RowSpan="3" VerticalAlignment="Top" HorizontalAlignment="Left" Spacing="20" Margin="95,30,0,0" Height="379">
+                <Image Source="Assets/banderaChina.png" Height="40" Width="60" Margin="0,0,0,0" />
+                <Image Source="Assets/banderaEspaña.png" Height="40" Width="60" Margin="0,30,0,0" />
+                <Image Source="Assets/banderaUK.png" Height="40" Width="60" Margin="0,20,0,0" />
+                <Image Source="Assets/banderaJapon.png" Height="40" Width="60" Margin="0,60,0,0" />
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Page>
