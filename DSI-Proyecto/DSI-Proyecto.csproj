@@ -146,6 +146,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\atras.png" />
+    <Content Include="Assets\banderaChina.png" />
+    <Content Include="Assets\banderaEspaña.png" />
+    <Content Include="Assets\banderaJapon.png" />
+    <Content Include="Assets\banderaUK.png" />
     <Content Include="Assets\chat.png" />
     <Content Include="Assets\cliente.png" />
     <Content Include="Assets\cola.png" />
@@ -156,6 +160,8 @@
     <Content Include="Assets\home.png" />
     <Content Include="Assets\idiomas.png" />
     <Content Include="Assets\movil.png" />
+    <Content Include="Assets\movilGraficos0.png" />
+    <Content Include="Assets\movilIdioma.png" />
     <Content Include="Assets\movilMenuPrincipal.png" />
     <Content Include="Assets\movilOpciones.png" />
     <Content Include="Assets\movilPausa.png" />

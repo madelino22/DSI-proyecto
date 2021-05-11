@@ -1,5 +1,9 @@
 WinMetadata\Windows.winmd
 Assets\atras.png
+Assets\banderaChina.png
+Assets\banderaEspaña.png
+Assets\banderaJapon.png
+Assets\banderaUK.png
 Assets\chat.png
 Assets\cliente.png
 Assets\cola.png
@@ -11,6 +15,8 @@ Assets\home.png
 Assets\idiomas.png
 Assets\LockScreenLogo.scale-200.png
 Assets\movil.png
+Assets\movilGraficos0.png
+Assets\movilIdioma.png
 Assets\movilMenuPrincipal.png
 Assets\movilOpciones.png
 Assets\movilPausa.png

@@ -122,3 +122,4 @@ C:\Users\roy_x\OneDrive\Escritorio\GitHub\DSI-proyecto\DSI-Proyecto\obj\x86\Debu
 C:\Users\roy_x\OneDrive\Escritorio\GitHub\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\movilIdioma.xaml
 C:\Users\roy_x\OneDrive\Escritorio\GitHub\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\movilGraficos.xbf
 C:\Users\roy_x\OneDrive\Escritorio\GitHub\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\movilIdioma.xbf
+C:\Users\roy_x\OneDrive\Escritorio\GitHub\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\DSI-Proyecto.csprojAssemblyReference.cache

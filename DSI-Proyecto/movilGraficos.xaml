@@ -31,7 +31,7 @@
             <ColumnDefinition Width="3*"></ColumnDefinition>
             <ColumnDefinition Width="3*"></ColumnDefinition>
         </Grid.ColumnDefinitions>
-        <Image x:Name="movilGraficosImagen" Source="Assets/movilOpciones.png" Grid.Column="1"></Image>
+        <Image x:Name="movilGraficosImagen" Source="Assets/movilGraficos0.png" Grid.Column="1"></Image>
         <Grid Grid.Column="1">
             <Grid.RowDefinitions>
                 <RowDefinition Height="*"></RowDefinition>

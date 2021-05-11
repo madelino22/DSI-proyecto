@@ -30,7 +30,7 @@
             <ColumnDefinition Width="3*"></ColumnDefinition>
             <ColumnDefinition Width="3*"></ColumnDefinition>
         </Grid.ColumnDefinitions>
-        <Image x:Name="movilIdiomaImagen" Source="Assets/movilOpciones.png" Grid.Column="1"></Image>
+        <Image x:Name="movilIdiomaImagen" Source="Assets/movilIdioma.png" Grid.Column="1"></Image>
         <Grid Grid.Column="1">
             <Grid.RowDefinitions>
                 <RowDefinition Height="*"></RowDefinition>
@@ -50,10 +50,10 @@
                 <Button x:Name="japonesButton" Content="日本語" Style="{StaticResource EstiloBotones}"/>
             </StackPanel>
             <StackPanel x:Name="panelImagenes" Grid.Row="2" Grid.RowSpan="3" VerticalAlignment="Top" HorizontalAlignment="Left" Spacing="20" Margin="95,30,0,0" Height="379">
-                <Image Source="Assets/banderaChina.png" Height="40" Width="60" Margin="0,0,0,0" />
-                <Image Source="Assets/banderaEspaña.png" Height="40" Width="60" Margin="0,30,0,0" />
+                <Image Source="Assets/banderaChina.png" Height="40" Width="60" Margin="0,42,0,0" />
+                <Image Source="Assets/banderaEspaña.png" Height="40" Width="60" Margin="0,25,0,0" />
                 <Image Source="Assets/banderaUK.png" Height="40" Width="60" Margin="0,20,0,0" />
-                <Image Source="Assets/banderaJapon.png" Height="40" Width="60" Margin="0,60,0,0" />
+                <Image Source="Assets/banderaJapon.png" Height="40" Width="60" Margin="0,25,0,0" />
             </StackPanel>
         </Grid>
     </Grid>
