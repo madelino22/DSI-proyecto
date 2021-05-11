@@ -159,6 +159,7 @@
     <Content Include="Assets\graficos.png" />
     <Content Include="Assets\home.png" />
     <Content Include="Assets\idiomas.png" />
+    <Content Include="Assets\libro.png" />
     <Content Include="Assets\movil.png" />
     <Content Include="Assets\movilGraficos0.png" />
     <Content Include="Assets\movilIdioma.png" />
