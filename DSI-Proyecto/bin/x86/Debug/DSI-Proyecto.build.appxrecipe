@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>DESKTOP-42JEB6U</Machine>
-    <WindowsUser>usuario</WindowsUser>
+    <Machine>DESKTOP-70EV4UM</Machine>
+    <WindowsUser>manue</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,22 +10,22 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>81cd11a5-0c84-4abf-934c-6714eb7fb660</PackageIdentityName>
     <PackageIdentityPublisher>CN=manue</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>D:\uni\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>D:\uni\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\DSI-Proyecto.exe">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\DSI-Proyecto.exe">
       <PackagePath>entrypoint\DSI-Proyecto.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
@@ -34,160 +34,160 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\atras.png">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\Assets\atras.png">
       <PackagePath>Assets\atras.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\banderaChina.png">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\Assets\banderaChina.png">
       <PackagePath>Assets\banderaChina.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\banderaEspaña.png">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\Assets\banderaEspaña.png">
       <PackagePath>Assets\banderaEspaña.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\banderaJapon.png">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\Assets\banderaJapon.png">
       <PackagePath>Assets\banderaJapon.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\banderaUK.png">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\Assets\banderaUK.png">
       <PackagePath>Assets\banderaUK.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\chat.png">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\Assets\chat.png">
       <PackagePath>Assets\chat.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\cliente.png">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\Assets\cliente.png">
       <PackagePath>Assets\cliente.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\cola.png">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\Assets\cola.png">
       <PackagePath>Assets\cola.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\completa.png">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\Assets\completa.png">
       <PackagePath>Assets\completa.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\daltonico.png">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\Assets\daltonico.png">
       <PackagePath>Assets\daltonico.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\fondoPapel.png">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\Assets\fondoPapel.png">
       <PackagePath>Assets\fondoPapel.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\graficos.png">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\Assets\graficos.png">
       <PackagePath>Assets\graficos.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\home.png">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\Assets\home.png">
       <PackagePath>Assets\home.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\idiomas.png">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\Assets\idiomas.png">
       <PackagePath>Assets\idiomas.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\libro.png">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\Assets\libro.png">
       <PackagePath>Assets\libro.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\movil.png">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\Assets\movil.png">
       <PackagePath>Assets\movil.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\movilGraficos0.png">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\Assets\movilGraficos0.png">
       <PackagePath>Assets\movilGraficos0.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\movilIdioma.png">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\Assets\movilIdioma.png">
       <PackagePath>Assets\movilIdioma.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\movilMenuPrincipal.png">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\Assets\movilMenuPrincipal.png">
       <PackagePath>Assets\movilMenuPrincipal.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\movilOpciones.png">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\Assets\movilOpciones.png">
       <PackagePath>Assets\movilOpciones.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\movilPausa.png">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\Assets\movilPausa.png">
       <PackagePath>Assets\movilPausa.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\musica.png">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\Assets\musica.png">
       <PackagePath>Assets\musica.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\opciones.png">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\Assets\opciones.png">
       <PackagePath>Assets\opciones.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\play.png">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\Assets\play.png">
       <PackagePath>Assets\play.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\resolucion.png">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\Assets\resolucion.png">
       <PackagePath>Assets\resolucion.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\salir.png">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\Assets\salir.png">
       <PackagePath>Assets\salir.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\salirpartida.png">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\Assets\salirpartida.png">
       <PackagePath>Assets\salirpartida.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\shop.png">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\Assets\shop.png">
       <PackagePath>Assets\shop.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\sonido.png">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\Assets\sonido.png">
       <PackagePath>Assets\sonido.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\taberna.png">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\Assets\taberna.png">
       <PackagePath>Assets\taberna.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\repeat.jpg">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\Assets\repeat.jpg">
       <PackagePath>Assets\repeat.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\DSI-Proyecto.xr.xml">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\DSI-Proyecto.xr.xml">
       <PackagePath>DSI-Proyecto.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\MenuPausa.xbf">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\MenuPausa.xbf">
       <PackagePath>MenuPausa.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\MenuPrincipal.xbf">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\MenuPrincipal.xbf">
       <PackagePath>MenuPrincipal.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\movilGraficos.xbf">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\movilGraficos.xbf">
       <PackagePath>movilGraficos.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\movilIdioma.xbf">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\movilIdioma.xbf">
       <PackagePath>movilIdioma.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\movilOpciones0.xbf">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\movilOpciones0.xbf">
       <PackagePath>movilOpciones0.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\Core\DSI-Proyecto.exe">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\Core\DSI-Proyecto.exe">
       <PackagePath>DSI-Proyecto.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

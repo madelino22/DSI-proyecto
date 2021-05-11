@@ -194,3 +194,19 @@ C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x8
 C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\ProjectArchitectures.txt
 C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885238160000000.json
 C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885274160000000.json
+D:\uni\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\movilGraficos.xbf
+D:\uni\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\movilIdioma.xbf
+D:\uni\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\movilOpciones0.xbf
+D:\uni\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\movilGraficos.g.i.cs
+D:\uni\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\movilGraficos.g.cs
+D:\uni\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\movilIdioma.g.i.cs
+D:\uni\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\movilIdioma.g.cs
+D:\uni\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\movilOpciones0.g.i.cs
+D:\uni\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\movilOpciones0.g.cs
+D:\uni\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\movilGraficos.xaml
+D:\uni\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\movilIdioma.xaml
+D:\uni\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\movilOpciones0.xaml
+D:\uni\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\movilGraficos.xbf
+D:\uni\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\movilIdioma.xbf
+D:\uni\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\movilOpciones0.xbf
+D:\uni\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885238160000000.json
