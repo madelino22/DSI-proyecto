@@ -15,6 +15,8 @@
             <Setter Property="Margin" Value="0,5,0,0" />
             <Setter Property="CornerRadius" Value="15" />
             <Setter Property="Background" Value="Purple" />
+            <Setter Property="MaxHeight" Value="200"/>
+            <Setter Property="MaxWidth" Value="200"/>
         </Style>
 
     </Page.Resources>
@@ -31,24 +33,39 @@
         <Border Background="Black" Grid.RowSpan="2" Grid.ColumnSpan="2" Margin="-10,0,10,0"/>
 
         <!--Fondos-->
-        <Image Source="Assets/fondoPapel.png" VerticalAlignment="Center" Grid.RowSpan="2"/>
-        <Image Grid.Column="1" Grid.Row="1" Source="Assets/cliente.png"/>
-        <Image Grid.Column="1" Grid.Row="0" Source="Assets/cola.png"/>
+        <Viewbox Grid.Row="0" Grid.RowSpan="2"  VerticalAlignment="Center">
+            <Image Source="Assets/fondoPapel.png"/>
+        </Viewbox>
+        <Viewbox Grid.Column="1" Grid.Row="1" >
+            <Image Source="Assets/cliente.png"/>
+        </Viewbox>
+        <Viewbox  Grid.Column="1" Grid.Row="0" >
+            <Image Source="Assets/cola.png"/>
+        </Viewbox>
 
         <!--Abajo derecha-->
-        <StackPanel Grid.Row="1" Grid.Column="1" Orientation="Vertical" HorizontalAlignment="Stretch" VerticalAlignment="Center"
-                             Margin="10,0,0,20">
-            <Button Content="Cachear" Style= "{StaticResource EstiloBotones}"/>
-            <Button Content="DNI" Margin="10,53,0,0" Style="{StaticResource EstiloBotones}"/>
-        </StackPanel>
-        <Button Content="Aceptar" Grid.Row="1" Grid.Column="1" VerticalAlignment="Bottom" Margin="10,0,0,48"
-                Style="{StaticResource EstiloBotones}"/>
-        <Button Content="Rechazar" Grid.Row="1" Grid.Column="1" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="0,0,10,46"
-                Style="{StaticResource EstiloBotones}"/>
+        <Viewbox Grid.Row="1" Grid.Column="1">
+            <Grid Height="500" Width="500">
+                <StackPanel Orientation="Vertical" VerticalAlignment="Top"
+                             Margin="0,90,400,0" MaxHeight="200" MaxWidth="100">
+                    <Button Content="Cachear" Style= "{StaticResource EstiloBotones}"/>
+                    <Button Content="DNI" Margin="10,53,0,0" Style="{StaticResource EstiloBotones}"/>
+                </StackPanel>
+                <Button Content="Aceptar" VerticalAlignment="Bottom" Margin="10,0,0,46"
+                            Style="{StaticResource EstiloBotones}"/>
+                <Button Content="Rechazar" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="0,0,10,46"
+                            Style="{StaticResource EstiloBotones}"/>
+            </Grid>
+        </Viewbox>
 
         <!--Izquierda-->
-        <Image Grid.Column="0" Grid.Row="1" Source="Assets/movil.png" Margin="852,389,473,10" Grid.ColumnSpan="2"/>
-        <Image Grid.Column="0" Grid.Row="1" Source="Assets/libro.png" Margin="0,378,912,0"></Image>
+        <Viewbox Grid.Row="1" Grid.Column="0" VerticalAlignment="Bottom" HorizontalAlignment="Center" >
+            <StackPanel Orientation="Horizontal" Margin="0,0,0,20">
+                <Image Source="Assets/libro.png" MaxHeight="100" MaxWidth="100" HorizontalAlignment="Left" Height="Auto" Margin="0,0,700,0"/>
+                <Image Grid.Column="0" Grid.Row="1" Source="Assets/movil.png" MaxHeight="100" MaxWidth="100" HorizontalAlignment="Right"/>
+            </StackPanel>
+        </Viewbox>
+
     </Grid>
 </Page>
 

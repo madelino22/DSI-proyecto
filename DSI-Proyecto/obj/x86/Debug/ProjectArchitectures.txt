@@ -1,1 +1,1 @@
-D:\uni\DSI\DSI-proyecto\DSI-Proyecto\DSI-Proyecto.csproj;x86
+C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\DSI-Proyecto.csproj;x86
