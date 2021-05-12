@@ -122,11 +122,17 @@
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="MenuChat0.xaml.cs">
+      <DependentUpon>MenuChat0.xaml</DependentUpon>
+    </Compile>
     <Compile Include="MenuPausa.xaml.cs">
       <DependentUpon>MenuPausa.xaml</DependentUpon>
     </Compile>
     <Compile Include="MenuPrincipal.xaml.cs">
       <DependentUpon>MenuPrincipal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MenuTienda0.xaml.cs">
+      <DependentUpon>MenuTienda0.xaml</DependentUpon>
     </Compile>
     <Compile Include="movilGraficos.xaml.cs">
       <DependentUpon>movilGraficos.xaml</DependentUpon>
@@ -155,24 +161,36 @@
     <Content Include="Assets\cola.png" />
     <Content Include="Assets\completa.png" />
     <Content Include="Assets\daltonico.png" />
+    <Content Include="Assets\dandi.PNG" />
     <Content Include="Assets\fondoPapel.png" />
+    <Content Include="Assets\gorra.PNG" />
     <Content Include="Assets\graficos.png" />
     <Content Include="Assets\home.png" />
     <Content Include="Assets\idiomas.png" />
+    <Content Include="Assets\keko.PNG" />
     <Content Include="Assets\libro.png" />
+    <Content Include="Assets\mary.PNG" />
+    <Content Include="Assets\moneda.PNG" />
     <Content Include="Assets\movil.png" />
+    <Content Include="Assets\movilchat.PNG" />
+    <Content Include="Assets\movilchatpriv.PNG" />
     <Content Include="Assets\movilGraficos0.png" />
     <Content Include="Assets\movilIdioma.png" />
     <Content Include="Assets\movilMenuPrincipal.png" />
     <Content Include="Assets\movilOpciones.png" />
     <Content Include="Assets\movilPausa.png" />
+    <Content Include="Assets\moviltienda.PNG" />
     <Content Include="Assets\musica.png" />
     <Content Include="Assets\opciones.png" />
+    <Content Include="Assets\pantalon.PNG" />
+    <Content Include="Assets\pepe.PNG" />
     <Content Include="Assets\play.png" />
+    <Content Include="Assets\remera.PNG" />
     <Content Include="Assets\repeat.jpg" />
     <Content Include="Assets\resolucion.png" />
     <Content Include="Assets\salir.png" />
     <Content Include="Assets\salirpartida.png" />
+    <Content Include="Assets\sech.PNG" />
     <Content Include="Assets\shop.png" />
     <Content Include="Assets\sonido.png" />
     <Content Include="Assets\taberna.png" />
@@ -194,11 +212,19 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="MenuChat0.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MenuPausa.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="MenuPrincipal.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MenuTienda0.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

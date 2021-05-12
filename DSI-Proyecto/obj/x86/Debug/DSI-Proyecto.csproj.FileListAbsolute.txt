@@ -210,3 +210,8 @@ D:\uni\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\movilGraficos.xbf
 D:\uni\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\movilIdioma.xbf
 D:\uni\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\movilOpciones0.xbf
 D:\uni\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885238160000000.json
+D:\uni\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\MenuChat0.xbf
+D:\uni\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\MenuChat0.g.i.cs
+D:\uni\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\MenuChat0.g.cs
+D:\uni\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\MenuChat0.xaml
+D:\uni\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\MenuChat0.xbf

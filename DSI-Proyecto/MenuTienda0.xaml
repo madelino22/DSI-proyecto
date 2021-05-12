@@ -1,0 +1,85 @@
+﻿<Page
+    x:Class="DSI_Proyecto.MenuTienda0"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:DSI_Proyecto"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Page.Resources>
+        <DataTemplate x:Key="ImageGridView_DefaultItemTemplate">
+            <Grid Height="40" Width="300" Margin="8">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="20"/>
+                    <ColumnDefinition Width="60"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Text="Sech" FontSize="20" VerticalAlignment="Center"/>
+                <Image Source="Assets/shop.png" Grid.Column="1" VerticalAlignment="Center" Width="20"/>
+                <TextBlock Text="Sech" FontSize="20" Grid.Column="2" VerticalAlignment="Center"/>
+            </Grid>
+
+        </DataTemplate>
+    </Page.Resources>
+
+
+
+
+    <Grid>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--imagen de fondo-->
+        <Viewbox Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="3" Stretch="Fill">
+            <Image Source="Assets/fondoPapel.png"/>
+
+        </Viewbox>
+
+        <Viewbox Grid.Column="1">
+            <Grid>
+                <!--imagen movil-->
+                <Image HorizontalAlignment="Center" VerticalAlignment="Center" Source="Assets/movilTienda.png"/>
+
+
+                <StackPanel Margin="60,145,0,40" Grid.Column="0"  Grid.Row= "1"  HorizontalAlignment="Left" Orientation="Horizontal" VerticalAlignment="Top"  >
+
+                    <Button Margin="0,0,0,0" x:Name="BackButton" Background="Transparent"  CornerRadius="70">
+                        <StackPanel HorizontalAlignment="Right" Orientation="Horizontal">
+                            <Image Source="Assets/atras.png"  Height="35"/>
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+
+
+                <ListView x:Name="ImageGridView" Margin="32,209,38,181"
+                  Background="Transparent" IsItemClickEnabled="True"  ItemTemplate="{StaticResource ImageGridView_DefaultItemTemplate}" >
+                </ListView>
+
+
+
+                <StackPanel Margin="-25,0,0,30" Grid.Column="0"  Grid.Row= "1"  HorizontalAlignment="Center" Orientation="Horizontal" VerticalAlignment="Bottom"  >
+
+                    <Button Margin="15,0,0,0" x:Name="ShopButton" Background="Transparent"  CornerRadius="70">
+                        <StackPanel HorizontalAlignment="Right" Orientation="Horizontal">
+                            <Image Source="Assets/home.png"  Height="35"/>
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+
+            </Grid>
+        </Viewbox>
+
+
+
+
+    </Grid>
+</Page>

@@ -14,49 +14,52 @@
     <Grid>
 
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
             <ColumnDefinition Width="1*"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
         <!--imagen de fondo-->
-        <Image Grid.Column="0" Grid.Row="0"   Grid.RowSpan="2"  Source="Assets/fondoPapel.png"/>
-        <Image Grid.Column="1" Grid.Row="0"    Source="Assets/cola.png"/>
-        <Image Grid.Column="1" Grid.Row="1"    Source="Assets/cliente.png"/>
-        <!--imagen movil-->
-        <Image   Grid.Column="0"  Grid.Row= "1" Grid.ColumnSpan="1" Grid.RowSpan="1"  HorizontalAlignment="Center" VerticalAlignment="Center" Source="Assets/movilPausa.png"/>
+        <Viewbox Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="3" Stretch="Fill">
+            <Image Source="Assets/fondoPapel.png"/>
+
+        </Viewbox>
+
+        <Viewbox Grid.Column="1">
+            <Grid>
+                <!--imagen movil-->
+                <Image HorizontalAlignment="Center" VerticalAlignment="Center" Source="Assets/movilPausa.png"/>
+                <StackPanel Margin="0,0,0,100" Grid.Column="0"  Grid.Row= "1"  HorizontalAlignment="Center" Orientation="Horizontal" VerticalAlignment="Bottom"  >
+
+                    <Button  x:Name="MessagesButton" Background="Green"  CornerRadius="50" >
+                        <StackPanel HorizontalAlignment="Right" Orientation="Horizontal">
+                            <Image Source="Assets/chat.png"  Height="35"/>
+                        </StackPanel>
+                    </Button>
+
+                    <Button Margin="15,0,0,0" x:Name="ShopButton" Background="Yellow"  CornerRadius="70">
+                        <StackPanel HorizontalAlignment="Right" Orientation="Horizontal">
+                            <Image Source="Assets/shop.png"  Height="35"/>
+                        </StackPanel>
+                    </Button>
+
+
+                    <Button   Margin="15,0,0,0" x:Name="OptionsButton" Background="Purple"  CornerRadius="70">
+                        <StackPanel HorizontalAlignment="Right" Orientation="Horizontal">
+                            <Image Source="Assets/opciones.png"  Height="35"/>
+                        </StackPanel>
+                    </Button>
+
+                </StackPanel>
+
+            </Grid>
+        </Viewbox>
+      
        
-        <StackPanel Grid.Column="0"  Grid.Row= "1"  HorizontalAlignment="Center" Orientation="Horizontal" VerticalAlignment="Bottom"  >
-            
-            <Button  x:Name="MessagesButton" Background="Green"  CornerRadius="50">
-                <StackPanel HorizontalAlignment="Right" Orientation="Horizontal">
-                    <Image Source="Assets/chat.png"  Height="45"/>
-                </StackPanel>
-            </Button> 
-            
-            <Button  x:Name="ShopButton" Background="Yellow"  CornerRadius="70">
-                <StackPanel HorizontalAlignment="Right" Orientation="Horizontal">
-                    <Image Source="Assets/shop.png"  Height="45"/>
-                </StackPanel>
-            </Button> 
-            
-            
-            <Button  x:Name="OptionsButton" Background="Purple"  CornerRadius="70">
-                <StackPanel HorizontalAlignment="Right" Orientation="Horizontal">
-                    <Image Source="Assets/opciones.png"  Height="45"/>
-                </StackPanel>
-            </Button>
-            
-            
-
-
-
-
-
-        </StackPanel>
+       
 
     </Grid>
 </Page>

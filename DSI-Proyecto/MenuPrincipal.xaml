@@ -9,7 +9,7 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
     <Page.Resources>
         <Style x:Key="EstiloBotones" TargetType="Button">
-            <Setter Property="FontSize" Value="30" />
+            <Setter Property="FontSize" Value="25" />
             <Setter Property="HorizontalAlignment" Value="Center" />
             <Setter Property="Margin" Value="0,5,0,0" />
             <Setter Property="CornerRadius" Value="15" />
@@ -31,18 +31,21 @@
         </Grid.RowDefinitions>
 
         <!--imagen de fondo-->
-        <Image  Grid.ColumnSpan="3" Grid.RowSpan="3"  Source="Assets/taberna.png"/>
+        <Viewbox Grid.ColumnSpan="3" Grid.RowSpan="3" Stretch="Fill" >
+            <Image   Source="Assets/taberna.png"/>
+
+        </Viewbox>
 
         <Viewbox Grid.Column="1"  Grid.Row= "1">
             <Grid>
                 <Image CenterPoint="0,0,0" Source="Assets/movilMenuPrincipal.png" />
                 <StackPanel Grid.Column="1"  Grid.Row= "1"  HorizontalAlignment="Center" VerticalAlignment="Center" >
 
-                    <Button  x:Name="PlayButton" Style="{StaticResource EstiloBotones}" Margin="0,00,0,0" IsTabStop="True" TabIndex="1">
+                    <Button  x:Name="PlayButton" Style="{StaticResource EstiloBotones}" Margin="0,20,0,0" IsTabStop="True" TabIndex="1">
                         <StackPanel HorizontalAlignment="Right" Orientation="Horizontal">
                             <Image Source="Assets/play.png" Height="45"/>
                             <TextBlock Text="Jugar" Foreground="White"
-                   HorizontalAlignment="Center" />
+                                 HorizontalAlignment="Center" />
                         </StackPanel>
                     </Button>
 
