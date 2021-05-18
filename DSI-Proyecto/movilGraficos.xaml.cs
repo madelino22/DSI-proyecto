@@ -57,5 +57,10 @@ namespace DSI_Proyecto
                     break;
             }
         }
+
+        private void PantallaCompletaButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

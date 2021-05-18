@@ -65,8 +65,11 @@
                     <ContentControl x:Name="LibroCentro"   PointerMoved="LibroCentro_PointerMoved" PointerPressed="LibroCentro_PointerPressed" PointerReleased="LibroCentro_PointerReleased" RenderTransformOrigin="0.496,0.528" Canvas.Left="222" Canvas.Top="322">
                         <Grid>
                             <Image  Source="Assets/librillo.PNG" />
-                            <Button x:Name="VestimentaButton" Content="Vestimenta" Margin="60,-100,0,0" Style= "{StaticResource EstiloBotones}"/>
-
+                            <Button x:Name="VestimentaButton" Content="Vestimenta" Margin="114,54,0,0" Style= "{StaticResource EstiloBotones}" VerticalAlignment="Top" Height="41" Width="122" Click="Button_Click"/>
+                            <Button Content="Objetos ilegales" Margin="48,100,0,0" Style= "{StaticResource EstiloBotones}" VerticalAlignment="Top" Click="Button_Click_1"/>
+                            <Button Content="Documentación" Margin="48,159,0,0" Style= "{StaticResource EstiloBotones}" VerticalAlignment="Top" Click="Button_Click_2"/>
+                            <Button Content="Embriaguez" Margin="60,217,0,0" Style= "{StaticResource EstiloBotones}" VerticalAlignment="Top" Click="Button_Click_3"/>
+                            <TextBlock x:Name="Normas" FontSize="20" Text="D" Margin="294,62,57,97" TextWrapping="Wrap" MaxHeight="200" MaxWidth="200" HorizontalTextAlignment="Center"/>
                         </Grid>
                     </ContentControl>
                 </Canvas>

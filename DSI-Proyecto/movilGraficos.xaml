@@ -37,7 +37,7 @@
                 <RowDefinition Height="*"></RowDefinition>
                 <RowDefinition Height="*"></RowDefinition>
             </Grid.RowDefinitions>
-                <Button Margin="-25,130,0,0" x:Name="BackButton" Background="Transparent"  CornerRadius="70" Click="BackButton_Click">
+                <Button Margin="-25,130,0,0" x:Name="BackButton" Background="Transparent"  CornerRadius="70" Click="backButton_Click">
                     <StackPanel HorizontalAlignment="Right" Orientation="Horizontal">
                         <Image Source="Assets/atras.png"  Height="35"/>
                     </StackPanel>

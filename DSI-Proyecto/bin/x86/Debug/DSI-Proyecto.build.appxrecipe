@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>DESKTOP-42JEB6U</Machine>
-    <WindowsUser>usuario</WindowsUser>
+    <Machine>DESKTOP-TTBN1MU</Machine>
+    <WindowsUser>MASTER</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,310 +10,310 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>81cd11a5-0c84-4abf-934c-6714eb7fb660</PackageIdentityName>
     <PackageIdentityPublisher>CN=manue</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\DSI-Proyecto.exe">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\DSI-Proyecto.exe">
       <PackagePath>entrypoint\DSI-Proyecto.exe</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
+    <AppxPackagedFile Include="C:\Users\MASTER\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\atras.png">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\Assets\atras.png">
       <PackagePath>Assets\atras.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\banderaChina.png">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\Assets\banderaChina.png">
       <PackagePath>Assets\banderaChina.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\banderaEspaña.png">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\Assets\banderaEspaña.png">
       <PackagePath>Assets\banderaEspaña.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\banderaJapon.png">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\Assets\banderaJapon.png">
       <PackagePath>Assets\banderaJapon.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\banderaUK.png">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\Assets\banderaUK.png">
       <PackagePath>Assets\banderaUK.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\chat.png">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\Assets\chat.png">
       <PackagePath>Assets\chat.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\cliente.png">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\Assets\cliente.png">
       <PackagePath>Assets\cliente.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\cola.png">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\Assets\cola.png">
       <PackagePath>Assets\cola.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\completa.png">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\Assets\completa.png">
       <PackagePath>Assets\completa.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\daltonico.png">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\Assets\daltonico.png">
       <PackagePath>Assets\daltonico.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\dandi.PNG">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\Assets\dandi.PNG">
       <PackagePath>Assets\dandi.PNG</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\fondoPapel.png">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\Assets\fondoPapel.png">
       <PackagePath>Assets\fondoPapel.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\gorra.PNG">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\Assets\gorra.PNG">
       <PackagePath>Assets\gorra.PNG</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\graficos.png">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\Assets\graficos.png">
       <PackagePath>Assets\graficos.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\home.png">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\Assets\home.png">
       <PackagePath>Assets\home.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\idiomas.png">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\Assets\idiomas.png">
       <PackagePath>Assets\idiomas.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\keko.PNG">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\Assets\keko.PNG">
       <PackagePath>Assets\keko.PNG</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\librillo.PNG">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\Assets\librillo.PNG">
       <PackagePath>Assets\librillo.PNG</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\libro.png">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\Assets\libro.png">
       <PackagePath>Assets\libro.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\mary.PNG">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\Assets\mary.PNG">
       <PackagePath>Assets\mary.PNG</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\moneda.PNG">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\Assets\moneda.PNG">
       <PackagePath>Assets\moneda.PNG</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\movil.png">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\Assets\movil.png">
       <PackagePath>Assets\movil.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\movilchat.PNG">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\Assets\movilchat.PNG">
       <PackagePath>Assets\movilchat.PNG</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\movilchatpriv.PNG">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\Assets\movilchatpriv.PNG">
       <PackagePath>Assets\movilchatpriv.PNG</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\movilGraficos0.png">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\Assets\movilGraficos0.png">
       <PackagePath>Assets\movilGraficos0.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\movilIdioma.png">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\Assets\movilIdioma.png">
       <PackagePath>Assets\movilIdioma.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\movilMenuPrincipal.png">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\Assets\movilMenuPrincipal.png">
       <PackagePath>Assets\movilMenuPrincipal.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\movilOpciones.png">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\Assets\movilOpciones.png">
       <PackagePath>Assets\movilOpciones.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\movilPausa.png">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\Assets\movilPausa.png">
       <PackagePath>Assets\movilPausa.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\moviltienda.PNG">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\Assets\moviltienda.PNG">
       <PackagePath>Assets\moviltienda.PNG</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\musica.png">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\Assets\musica.png">
       <PackagePath>Assets\musica.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\opciones.png">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\Assets\opciones.png">
       <PackagePath>Assets\opciones.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\pantalon.PNG">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\Assets\pantalon.PNG">
       <PackagePath>Assets\pantalon.PNG</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\pepe.PNG">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\Assets\pepe.PNG">
       <PackagePath>Assets\pepe.PNG</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\play.png">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\Assets\play.png">
       <PackagePath>Assets\play.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\remera.PNG">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\Assets\remera.PNG">
       <PackagePath>Assets\remera.PNG</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\resolucion.png">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\Assets\resolucion.png">
       <PackagePath>Assets\resolucion.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\salir.png">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\Assets\salir.png">
       <PackagePath>Assets\salir.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\salirpartida.png">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\Assets\salirpartida.png">
       <PackagePath>Assets\salirpartida.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\sech.PNG">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\Assets\sech.PNG">
       <PackagePath>Assets\sech.PNG</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\shop.png">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\Assets\shop.png">
       <PackagePath>Assets\shop.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\sonido.png">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\Assets\sonido.png">
       <PackagePath>Assets\sonido.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\taberna.png">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\Assets\taberna.png">
       <PackagePath>Assets\taberna.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\repeat.jpg">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\Assets\repeat.jpg">
       <PackagePath>Assets\repeat.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\DSI-Proyecto.xr.xml">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\DSI-Proyecto.xr.xml">
       <PackagePath>DSI-Proyecto.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\MenuChat0.xbf">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\MenuChat0.xbf">
       <PackagePath>MenuChat0.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\MenuPausa.xbf">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\MenuPausa.xbf">
       <PackagePath>MenuPausa.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\MenuPrincipal.xbf">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\MenuPrincipal.xbf">
       <PackagePath>MenuPrincipal.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\MenuTienda0.xbf">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\MenuTienda0.xbf">
       <PackagePath>MenuTienda0.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\movilGraficos.xbf">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\movilGraficos.xbf">
       <PackagePath>movilGraficos.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\movilIdioma.xbf">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\movilIdioma.xbf">
       <PackagePath>movilIdioma.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\movilOpciones0.xbf">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\movilOpciones0.xbf">
       <PackagePath>movilOpciones0.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\Core\DSI-Proyecto.exe">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\Core\DSI-Proyecto.exe">
       <PackagePath>DSI-Proyecto.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
-    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+    <ResolvedSDKReference Include="C:\Users\MASTER\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
       <Name>Microsoft.NET.CoreRuntime.2.2</Name>
       <Version>2.2.27902.3</Version>
       <Architecture>x86</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Users\MASTER\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+    <ResolvedSDKReference Include="C:\Users\MASTER\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
       <Name>Microsoft.NET.CoreRuntime.2.2</Name>
       <Version>2.2.27902.3</Version>
       <Architecture>x64</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Users\MASTER\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+    <ResolvedSDKReference Include="C:\Users\MASTER\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
       <Name>Microsoft.NET.CoreRuntime.2.2</Name>
       <Version>2.2.27902.3</Version>
       <Architecture>arm</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Users\MASTER\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+    <ResolvedSDKReference Include="C:\Users\MASTER\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
       <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
       <Version>2.2.28529.0</Version>
       <Architecture>x86</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.28529.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Users\MASTER\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+    <ResolvedSDKReference Include="C:\Users\MASTER\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
       <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
       <Version>2.2.28529.0</Version>
       <Architecture>x64</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.28529.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Users\MASTER\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+    <ResolvedSDKReference Include="C:\Users\MASTER\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
       <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
       <Version>2.2.28529.0</Version>
       <Architecture>arm</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.28529.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Users\MASTER\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
       <Name>Microsoft.VCLibs.140.00.Debug</Name>
-      <Version>14.0.27810.0</Version>
+      <Version>14.0.27323.0</Version>
       <Architecture>ARM</Architecture>
-      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27810.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
       <Name>Microsoft.VCLibs.140.00.Debug</Name>
-      <Version>14.0.27810.0</Version>
+      <Version>14.0.27323.0</Version>
       <Architecture>ARM64</Architecture>
-      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27810.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM64\Microsoft.VCLibs.ARM64.Debug.14.00.appx</AppxLocation>
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
       <Name>Microsoft.VCLibs.140.00.Debug</Name>
-      <Version>14.0.27810.0</Version>
+      <Version>14.0.27323.0</Version>
       <Architecture>x64</Architecture>
-      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27810.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
       <Name>Microsoft.VCLibs.140.00.Debug</Name>
-      <Version>14.0.27810.0</Version>
+      <Version>14.0.27323.0</Version>
       <Architecture>x86</Architecture>
-      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27810.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>

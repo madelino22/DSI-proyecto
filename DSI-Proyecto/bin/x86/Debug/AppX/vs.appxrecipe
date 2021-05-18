@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>DESKTOP-42JEB6U</Machine>
-    <WindowsUser>usuario</WindowsUser>
+    <Machine>DESKTOP-TTBN1MU</Machine>
+    <WindowsUser>MASTER</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>81cd11a5-0c84-4abf-934c-6714eb7fb660</PackageIdentityName>
     <PackageIdentityPublisher>CN=manue</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,8 +18,8 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>D2427009B4C619B5FB2B86B46EB26416D4A30BC54BCD0F66E2B175DCF16289D6</RegisteredManifestChecksum>
+    <LayoutDir>C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>A6D11785011561726DB840D545D0069E1AA4C7D2C18B8061BEFDD1BE68349161</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>81cd11a5-0c84-4abf-934c-6714eb7fb660_1.0.0.0_x86__2csccb14jvxhc</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>81cd11a5-0c84-4abf-934c-6714eb7fb660_2csccb14jvxhc!App</RegisteredUserModeAppID>
     <RegisteredPackageID>81cd11a5-0c84-4abf-934c-6714eb7fb660</RegisteredPackageID>
@@ -27,18 +27,18 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-05-18T14:31:28.664</Modified>
+      <Modified>2021-05-18T14:55:57.259</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\DSI-Proyecto.exe">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\DSI-Proyecto.exe">
       <PackagePath>entrypoint\DSI-Proyecto.exe</PackagePath>
-      <Modified>2021-05-18T14:31:28.058</Modified>
+      <Modified>2021-05-18T14:55:55.345</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
+    <AppxPackagedFile Include="C:\Users\MASTER\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
       <Modified>2020-02-27T18:16:04.000</Modified>
     </AppxPackagedFile>
@@ -46,360 +46,360 @@
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2019-03-18T16:36:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\atras.png">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\Assets\atras.png">
       <PackagePath>Assets\atras.png</PackagePath>
-      <Modified>2021-05-11T13:27:31.904</Modified>
+      <Modified>2021-05-11T09:03:03.275</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\banderaChina.png">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\Assets\banderaChina.png">
       <PackagePath>Assets\banderaChina.png</PackagePath>
-      <Modified>2021-05-11T13:27:31.904</Modified>
+      <Modified>2021-05-11T09:03:03.275</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\banderaEspaña.png">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\Assets\banderaEspaña.png">
       <PackagePath>Assets\banderaEspaña.png</PackagePath>
-      <Modified>2021-05-11T13:27:31.905</Modified>
+      <Modified>2021-05-11T09:03:03.276</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\banderaJapon.png">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\Assets\banderaJapon.png">
       <PackagePath>Assets\banderaJapon.png</PackagePath>
-      <Modified>2021-05-11T13:27:31.905</Modified>
+      <Modified>2021-05-11T09:03:03.277</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\banderaUK.png">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\Assets\banderaUK.png">
       <PackagePath>Assets\banderaUK.png</PackagePath>
-      <Modified>2021-05-11T13:27:31.906</Modified>
+      <Modified>2021-05-11T09:03:03.277</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\chat.png">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\Assets\chat.png">
       <PackagePath>Assets\chat.png</PackagePath>
-      <Modified>2021-05-11T13:27:31.906</Modified>
+      <Modified>2021-05-11T09:03:03.278</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\cliente.png">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\Assets\cliente.png">
       <PackagePath>Assets\cliente.png</PackagePath>
-      <Modified>2021-05-11T13:27:31.907</Modified>
+      <Modified>2021-05-11T09:03:03.279</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\cola.png">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\Assets\cola.png">
       <PackagePath>Assets\cola.png</PackagePath>
-      <Modified>2021-05-11T13:27:31.908</Modified>
+      <Modified>2021-05-11T09:03:03.280</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\completa.png">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\Assets\completa.png">
       <PackagePath>Assets\completa.png</PackagePath>
-      <Modified>2021-05-11T13:27:31.909</Modified>
+      <Modified>2021-05-11T09:03:03.281</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\daltonico.png">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\Assets\daltonico.png">
       <PackagePath>Assets\daltonico.png</PackagePath>
-      <Modified>2021-05-11T13:27:31.910</Modified>
+      <Modified>2021-05-11T09:03:03.281</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\dandi.PNG">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\Assets\dandi.PNG">
       <PackagePath>Assets\dandi.PNG</PackagePath>
-      <Modified>2021-05-18T13:34:14.299</Modified>
+      <Modified>2021-05-12T13:02:44.166</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\fondoPapel.png">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\Assets\fondoPapel.png">
       <PackagePath>Assets\fondoPapel.png</PackagePath>
-      <Modified>2021-05-11T13:27:31.913</Modified>
+      <Modified>2021-05-11T09:03:03.285</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\gorra.PNG">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\Assets\gorra.PNG">
       <PackagePath>Assets\gorra.PNG</PackagePath>
-      <Modified>2021-05-18T13:34:14.300</Modified>
+      <Modified>2021-05-12T13:02:44.173</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\graficos.png">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\Assets\graficos.png">
       <PackagePath>Assets\graficos.png</PackagePath>
-      <Modified>2021-05-11T13:27:31.914</Modified>
+      <Modified>2021-05-11T09:03:03.285</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\home.png">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\Assets\home.png">
       <PackagePath>Assets\home.png</PackagePath>
-      <Modified>2021-05-11T13:27:31.914</Modified>
+      <Modified>2021-05-11T09:03:03.286</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\idiomas.png">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\Assets\idiomas.png">
       <PackagePath>Assets\idiomas.png</PackagePath>
-      <Modified>2021-05-11T13:27:31.914</Modified>
+      <Modified>2021-05-11T09:03:03.286</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\keko.PNG">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\Assets\keko.PNG">
       <PackagePath>Assets\keko.PNG</PackagePath>
-      <Modified>2021-05-18T13:34:14.301</Modified>
+      <Modified>2021-05-12T13:02:44.182</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\librillo.PNG">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\Assets\librillo.PNG">
       <PackagePath>Assets\librillo.PNG</PackagePath>
-      <Modified>2021-05-18T13:34:14.302</Modified>
+      <Modified>2021-05-18T13:15:54.191</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\libro.png">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\Assets\libro.png">
       <PackagePath>Assets\libro.png</PackagePath>
-      <Modified>2021-05-11T13:28:52.785</Modified>
+      <Modified>2021-05-12T13:02:44.190</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\mary.PNG">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\Assets\mary.PNG">
       <PackagePath>Assets\mary.PNG</PackagePath>
-      <Modified>2021-05-18T13:34:14.303</Modified>
+      <Modified>2021-05-12T13:02:44.197</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\moneda.PNG">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\Assets\moneda.PNG">
       <PackagePath>Assets\moneda.PNG</PackagePath>
-      <Modified>2021-05-18T13:34:14.304</Modified>
+      <Modified>2021-05-12T13:02:44.203</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\movil.png">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\Assets\movil.png">
       <PackagePath>Assets\movil.png</PackagePath>
-      <Modified>2021-05-11T13:27:31.915</Modified>
+      <Modified>2021-05-11T09:03:03.287</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\movilchat.PNG">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\Assets\movilchat.PNG">
       <PackagePath>Assets\movilchat.PNG</PackagePath>
-      <Modified>2021-05-18T13:34:14.309</Modified>
+      <Modified>2021-05-12T13:02:44.209</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\movilchatpriv.PNG">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\Assets\movilchatpriv.PNG">
       <PackagePath>Assets\movilchatpriv.PNG</PackagePath>
-      <Modified>2021-05-18T13:34:14.312</Modified>
+      <Modified>2021-05-12T13:02:44.215</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\movilGraficos0.png">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\Assets\movilGraficos0.png">
       <PackagePath>Assets\movilGraficos0.png</PackagePath>
-      <Modified>2021-05-18T13:34:14.307</Modified>
+      <Modified>2021-05-18T13:15:54.199</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\movilIdioma.png">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\Assets\movilIdioma.png">
       <PackagePath>Assets\movilIdioma.png</PackagePath>
-      <Modified>2021-05-18T13:34:14.308</Modified>
+      <Modified>2021-05-18T13:15:54.207</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\movilMenuPrincipal.png">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\Assets\movilMenuPrincipal.png">
       <PackagePath>Assets\movilMenuPrincipal.png</PackagePath>
-      <Modified>2021-05-11T13:27:31.917</Modified>
+      <Modified>2021-05-11T09:03:03.289</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\movilOpciones.png">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\Assets\movilOpciones.png">
       <PackagePath>Assets\movilOpciones.png</PackagePath>
-      <Modified>2021-05-11T13:27:31.918</Modified>
+      <Modified>2021-05-11T09:03:03.290</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\movilPausa.png">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\Assets\movilPausa.png">
       <PackagePath>Assets\movilPausa.png</PackagePath>
-      <Modified>2021-05-11T13:27:31.918</Modified>
+      <Modified>2021-05-11T09:03:03.291</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\moviltienda.PNG">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\Assets\moviltienda.PNG">
       <PackagePath>Assets\moviltienda.PNG</PackagePath>
-      <Modified>2021-05-18T13:34:14.314</Modified>
+      <Modified>2021-05-12T13:02:44.224</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\musica.png">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\Assets\musica.png">
       <PackagePath>Assets\musica.png</PackagePath>
-      <Modified>2021-05-11T13:27:31.919</Modified>
+      <Modified>2021-05-11T09:03:03.291</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\opciones.png">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\Assets\opciones.png">
       <PackagePath>Assets\opciones.png</PackagePath>
-      <Modified>2021-05-11T13:27:31.920</Modified>
+      <Modified>2021-05-11T09:03:03.292</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\pantalon.PNG">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\Assets\pantalon.PNG">
       <PackagePath>Assets\pantalon.PNG</PackagePath>
-      <Modified>2021-05-18T13:34:14.315</Modified>
+      <Modified>2021-05-12T13:02:44.229</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\pepe.PNG">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\Assets\pepe.PNG">
       <PackagePath>Assets\pepe.PNG</PackagePath>
-      <Modified>2021-05-18T13:34:14.316</Modified>
+      <Modified>2021-05-12T13:02:44.234</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\play.png">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\Assets\play.png">
       <PackagePath>Assets\play.png</PackagePath>
-      <Modified>2021-05-11T13:27:31.921</Modified>
+      <Modified>2021-05-11T09:03:03.294</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\remera.PNG">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\Assets\remera.PNG">
       <PackagePath>Assets\remera.PNG</PackagePath>
-      <Modified>2021-05-18T13:34:14.317</Modified>
+      <Modified>2021-05-12T13:02:44.242</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\resolucion.png">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\Assets\resolucion.png">
       <PackagePath>Assets\resolucion.png</PackagePath>
-      <Modified>2021-05-11T13:27:31.922</Modified>
+      <Modified>2021-05-11T09:03:03.294</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\salir.png">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\Assets\salir.png">
       <PackagePath>Assets\salir.png</PackagePath>
-      <Modified>2021-05-11T13:27:31.923</Modified>
+      <Modified>2021-05-11T09:03:03.295</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\salirpartida.png">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\Assets\salirpartida.png">
       <PackagePath>Assets\salirpartida.png</PackagePath>
-      <Modified>2021-05-11T13:27:31.923</Modified>
+      <Modified>2021-05-11T09:03:03.295</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\sech.PNG">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\Assets\sech.PNG">
       <PackagePath>Assets\sech.PNG</PackagePath>
-      <Modified>2021-05-18T13:34:14.318</Modified>
+      <Modified>2021-05-12T13:02:44.249</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\shop.png">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\Assets\shop.png">
       <PackagePath>Assets\shop.png</PackagePath>
-      <Modified>2021-05-11T13:27:31.924</Modified>
+      <Modified>2021-05-11T09:03:03.296</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\sonido.png">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\Assets\sonido.png">
       <PackagePath>Assets\sonido.png</PackagePath>
-      <Modified>2021-05-11T13:27:31.924</Modified>
+      <Modified>2021-05-11T09:03:03.297</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\taberna.png">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\Assets\taberna.png">
       <PackagePath>Assets\taberna.png</PackagePath>
-      <Modified>2021-05-11T13:27:31.926</Modified>
+      <Modified>2021-05-11T09:03:03.298</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2021-05-11T13:27:31.902</Modified>
+      <Modified>2021-05-11T09:03:03.273</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-05-11T13:27:31.902</Modified>
+      <Modified>2021-05-11T09:03:03.273</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-05-11T13:27:31.902</Modified>
+      <Modified>2021-05-11T09:03:03.273</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-05-11T13:27:31.903</Modified>
+      <Modified>2021-05-11T09:03:03.274</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-05-11T13:27:31.903</Modified>
+      <Modified>2021-05-11T09:03:03.274</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-05-11T13:27:31.903</Modified>
+      <Modified>2021-05-11T09:03:03.274</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-05-11T13:27:31.903</Modified>
+      <Modified>2021-05-11T09:03:03.275</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\repeat.jpg">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\Assets\repeat.jpg">
       <PackagePath>Assets\repeat.jpg</PackagePath>
-      <Modified>2021-05-11T13:27:31.922</Modified>
+      <Modified>2021-05-11T09:03:03.294</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2021-05-11T13:27:31.929</Modified>
+      <Modified>2021-05-11T09:03:03.301</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\DSI-Proyecto.xr.xml">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\DSI-Proyecto.xr.xml">
       <PackagePath>DSI-Proyecto.xr.xml</PackagePath>
-      <Modified>2021-05-18T13:34:14.352</Modified>
+      <Modified>2021-05-18T14:54:24.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2021-05-18T14:31:27.914</Modified>
+      <Modified>2021-05-18T14:55:55.113</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2021-05-18T14:31:27.914</Modified>
+      <Modified>2021-05-18T14:55:55.113</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\MenuChat0.xbf">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\MenuChat0.xbf">
       <PackagePath>MenuChat0.xbf</PackagePath>
-      <Modified>2021-05-18T14:31:27.914</Modified>
+      <Modified>2021-05-18T14:55:55.113</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\MenuPausa.xbf">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\MenuPausa.xbf">
       <PackagePath>MenuPausa.xbf</PackagePath>
-      <Modified>2021-05-18T14:31:27.915</Modified>
+      <Modified>2021-05-18T14:55:55.114</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\MenuPrincipal.xbf">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\MenuPrincipal.xbf">
       <PackagePath>MenuPrincipal.xbf</PackagePath>
-      <Modified>2021-05-18T14:31:27.915</Modified>
+      <Modified>2021-05-18T14:55:55.114</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\MenuTienda0.xbf">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\MenuTienda0.xbf">
       <PackagePath>MenuTienda0.xbf</PackagePath>
-      <Modified>2021-05-18T14:31:27.915</Modified>
+      <Modified>2021-05-18T14:55:55.114</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\movilGraficos.xbf">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\movilGraficos.xbf">
       <PackagePath>movilGraficos.xbf</PackagePath>
-      <Modified>2021-05-18T14:31:27.915</Modified>
+      <Modified>2021-05-18T14:55:55.114</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\movilIdioma.xbf">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\movilIdioma.xbf">
       <PackagePath>movilIdioma.xbf</PackagePath>
-      <Modified>2021-05-18T14:31:27.915</Modified>
+      <Modified>2021-05-18T14:55:55.114</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\movilOpciones0.xbf">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\movilOpciones0.xbf">
       <PackagePath>movilOpciones0.xbf</PackagePath>
-      <Modified>2021-05-18T14:31:27.915</Modified>
+      <Modified>2021-05-18T14:55:55.115</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2019-03-18T15:33:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2021-05-18T13:55:48.434</Modified>
+      <Modified>2021-05-18T14:55:55.775</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\Core\DSI-Proyecto.exe">
+    <AppxPackagedFile Include="C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\Core\DSI-Proyecto.exe">
       <PackagePath>DSI-Proyecto.exe</PackagePath>
-      <Modified>2021-05-18T14:31:28.660</Modified>
+      <Modified>2021-05-18T14:55:57.244</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
-    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+    <ResolvedSDKReference Include="C:\Users\MASTER\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
       <Name>Microsoft.NET.CoreRuntime.2.2</Name>
       <Version>2.2.27902.3</Version>
       <Architecture>x86</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Users\MASTER\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+    <ResolvedSDKReference Include="C:\Users\MASTER\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
       <Name>Microsoft.NET.CoreRuntime.2.2</Name>
       <Version>2.2.27902.3</Version>
       <Architecture>x64</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Users\MASTER\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+    <ResolvedSDKReference Include="C:\Users\MASTER\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
       <Name>Microsoft.NET.CoreRuntime.2.2</Name>
       <Version>2.2.27902.3</Version>
       <Architecture>arm</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Users\MASTER\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+    <ResolvedSDKReference Include="C:\Users\MASTER\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
       <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
       <Version>2.2.28529.0</Version>
       <Architecture>x86</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.28529.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Users\MASTER\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+    <ResolvedSDKReference Include="C:\Users\MASTER\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
       <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
       <Version>2.2.28529.0</Version>
       <Architecture>x64</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.28529.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Users\MASTER\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+    <ResolvedSDKReference Include="C:\Users\MASTER\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
       <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
       <Version>2.2.28529.0</Version>
       <Architecture>arm</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.28529.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Users\MASTER\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
       <Name>Microsoft.VCLibs.140.00.Debug</Name>
-      <Version>14.0.27810.0</Version>
+      <Version>14.0.27323.0</Version>
       <Architecture>ARM</Architecture>
-      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27810.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
       <Name>Microsoft.VCLibs.140.00.Debug</Name>
-      <Version>14.0.27810.0</Version>
+      <Version>14.0.27323.0</Version>
       <Architecture>ARM64</Architecture>
-      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27810.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM64\Microsoft.VCLibs.ARM64.Debug.14.00.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
       <Name>Microsoft.VCLibs.140.00.Debug</Name>
-      <Version>14.0.27810.0</Version>
+      <Version>14.0.27323.0</Version>
       <Architecture>x64</Architecture>
-      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27810.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
       <Name>Microsoft.VCLibs.140.00.Debug</Name>
-      <Version>14.0.27810.0</Version>
+      <Version>14.0.27323.0</Version>
       <Architecture>x86</Architecture>
-      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27810.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>

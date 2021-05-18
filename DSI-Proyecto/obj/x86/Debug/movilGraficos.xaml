@@ -37,9 +37,12 @@
                 <RowDefinition Height="*"></RowDefinition>
                 <RowDefinition Height="*"></RowDefinition>
             </Grid.RowDefinitions>
-            <Button x:ConnectionId='4' x:Name="backButton" Grid.Row="1" VerticalAlignment="Top" Style="{StaticResource NavigationBackButtonNormalStyle}"                          Margin="-25,110,0,0"/>
-
-            <StackPanel x:ConnectionId='5' x:Name="panelOpciones" Grid.Row="1" Grid.RowSpan="3" VerticalAlignment="Center" HorizontalAlignment="Center" Spacing="25" Margin="0,100,0,0">
+                <Button x:ConnectionId='4' Margin="-25,130,0,0" x:Name="BackButton" Background="Transparent"  CornerRadius="70"                         >
+                    <StackPanel HorizontalAlignment="Right" Orientation="Horizontal">
+                        <Image Source="Assets/atras.png"  Height="35"/>
+                    </StackPanel>
+                </Button>
+                <StackPanel x:ConnectionId='5' x:Name="panelOpciones" Grid.Row="1" Grid.RowSpan="3" VerticalAlignment="Center" HorizontalAlignment="Center" Spacing="25" Margin="0,100,0,0">
                 <Button x:ConnectionId='7' x:Name="PantallaCompletaButton" Content="Pantalla completa" Style="{StaticResource EstiloBotones}"/>
                 <Button x:ConnectionId='8' x:Name="Resolución" Content="Resolución" Style="{StaticResource EstiloBotones}"/>
                 <Button x:ConnectionId='9' x:Name="ModoDaltonicoButton" Content="Modo daltónico" Style="{StaticResource EstiloBotones}"/>

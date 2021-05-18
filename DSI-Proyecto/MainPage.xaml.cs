@@ -127,6 +127,26 @@ namespace DSI_Proyecto
                     VestimentaButton.Content = "衣類";
                     break;
             }
+
+        }
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Normas.Text = "- Prohibido zapatillas o chanclas, ropa informal u ofensiva para el local.";
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            Normas.Text = "- Cualquier objeto que pueda afectar a clientes y personal estará prohibido, como drogas y armas.";
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            Normas.Text = "- Prohibida la entrada a cualquiera persona menor de 16 años o que no lleve documentación en regla.";
+        }
+
+        private void Button_Click_3(object sender, RoutedEventArgs e)
+        {
+            Normas.Text = "- Cualquier persona que esté en estado de embriaguez severo, no podrá entrar al local.";
         }
     }
 }

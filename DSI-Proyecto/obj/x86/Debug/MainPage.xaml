@@ -48,12 +48,12 @@
             <Grid Height="500" Width="500">
                 <StackPanel Orientation="Vertical" VerticalAlignment="Top"
                              Margin="0,90,400,0" MaxHeight="200" MaxWidth="100">
-                    <Button x:ConnectionId='10' x:Name="CachearButton" Content="Cachear" Style= "{StaticResource EstiloBotones}"/>
-                    <Button x:ConnectionId='11' x:Name="DNIButton" Content="DNI" Margin="10,53,0,0" Style="{StaticResource EstiloBotones}"/>
+                    <Button x:ConnectionId='14' x:Name="CachearButton" Content="Cachear" Style= "{StaticResource EstiloBotones}"/>
+                    <Button x:ConnectionId='15' x:Name="DNIButton" Content="DNI" Margin="10,53,0,0" Style="{StaticResource EstiloBotones}"/>
                 </StackPanel>
-                <Button x:ConnectionId='8'  x:Name="AceptarButton" Content="Aceptar" VerticalAlignment="Bottom" Margin="10,0,0,46"
+                <Button x:ConnectionId='12'  x:Name="AceptarButton" Content="Aceptar" VerticalAlignment="Bottom" Margin="10,0,0,46"
                             Style="{StaticResource EstiloBotones}"/>
-                <Button x:ConnectionId='9' x:Name="RechazarButton" Content="Rechazar" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="0,0,10,46"
+                <Button x:ConnectionId='13' x:Name="RechazarButton" Content="Rechazar" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="0,0,10,46"
                             Style="{StaticResource EstiloBotones}"/>
             </Grid>
         </Viewbox>
@@ -65,8 +65,11 @@
                     <ContentControl x:ConnectionId='6' x:Name="LibroCentro"                                                                                                                                     RenderTransformOrigin="0.496,0.528" Canvas.Left="222" Canvas.Top="322">
                         <Grid>
                             <Image  Source="Assets/librillo.PNG" />
-                            <Button x:ConnectionId='7' x:Name="VestimentaButton" Content="Vestimenta" Margin="60,-100,0,0" Style= "{StaticResource EstiloBotones}"/>
-
+                            <Button x:ConnectionId='7' x:Name="VestimentaButton" Content="Vestimenta" Margin="114,54,0,0" Style= "{StaticResource EstiloBotones}" VerticalAlignment="Top" Height="41" Width="122"                     />
+                            <Button x:ConnectionId='8' Content="Objetos ilegales" Margin="48,100,0,0" Style= "{StaticResource EstiloBotones}" VerticalAlignment="Top"                       />
+                            <Button x:ConnectionId='9' Content="Documentación" Margin="48,159,0,0" Style= "{StaticResource EstiloBotones}" VerticalAlignment="Top"                       />
+                            <Button x:ConnectionId='10' Content="Embriaguez" Margin="60,217,0,0" Style= "{StaticResource EstiloBotones}" VerticalAlignment="Top"                       />
+                            <TextBlock x:ConnectionId='11' x:Name="Normas" FontSize="20" Text="D" Margin="294,62,57,97" TextWrapping="Wrap" MaxHeight="200" MaxWidth="200" HorizontalTextAlignment="Center"/>
                         </Grid>
                     </ContentControl>
                 </Canvas>
