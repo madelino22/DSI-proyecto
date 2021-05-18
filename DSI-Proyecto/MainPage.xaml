@@ -11,7 +11,7 @@
 
     <Page.Resources>
         <Style x:Key="EstiloBotones" TargetType="Button">
-            <Setter Property="FontSize" Value="30" />
+            <Setter Property="FontSize" Value="20" />
             <Setter Property="Margin" Value="0,5,0,0" />
             <Setter Property="CornerRadius" Value="15" />
             <Setter Property="Background" Value="Purple" />
@@ -66,10 +66,10 @@
                         <Grid>
                             <Image  Source="Assets/librillo.PNG" />
                             <Button x:Name="VestimentaButton" Content="Vestimenta" Margin="114,54,0,0" Style= "{StaticResource EstiloBotones}" VerticalAlignment="Top" Height="41" Width="122" Click="Button_Click"/>
-                            <Button Content="Objetos ilegales" Margin="48,100,0,0" Style= "{StaticResource EstiloBotones}" VerticalAlignment="Top" Click="Button_Click_1"/>
-                            <Button Content="Documentación" Margin="48,159,0,0" Style= "{StaticResource EstiloBotones}" VerticalAlignment="Top" Click="Button_Click_2"/>
-                            <Button Content="Embriaguez" Margin="60,217,0,0" Style= "{StaticResource EstiloBotones}" VerticalAlignment="Top" Click="Button_Click_3"/>
-                            <TextBlock x:Name="Normas" FontSize="20" Text="D" Margin="294,62,57,97" TextWrapping="Wrap" MaxHeight="200" MaxWidth="200" HorizontalTextAlignment="Center"/>
+                            <Button x:Name="ObjetosButton" Content="Objetos ilegales" Margin="48,100,0,0" Style= "{StaticResource EstiloBotones}" VerticalAlignment="Top" Click="Button_Click_1"/>
+                            <Button x:Name="DocumentationButton" Content="Documentación" Margin="48,159,0,0" Style= "{StaticResource EstiloBotones}" VerticalAlignment="Top" Click="Button_Click_2"/>
+                            <Button x:Name="DrunkButton" Content="Embriaguez" Margin="60,217,0,0" Style= "{StaticResource EstiloBotones}" VerticalAlignment="Top" Click="Button_Click_3" />
+                            <TextBlock x:Name="Normas" FontSize="20" Text="" Margin="294,62,57,97" TextWrapping="Wrap" MaxHeight="200" MaxWidth="200" HorizontalTextAlignment="Center"/>
                         </Grid>
                     </ContentControl>
                 </Canvas>

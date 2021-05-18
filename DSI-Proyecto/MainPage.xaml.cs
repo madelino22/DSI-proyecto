@@ -104,6 +104,9 @@ namespace DSI_Proyecto
                     AceptarButton.Content = "Aceptar";
                     RechazarButton.Content = "Rechazar";
                     VestimentaButton.Content = "Vestimenta";
+                    ObjetosButton.Content = "Objetos ilegales";
+                    DocumentationButton.Content = "Documentación";
+                    DrunkButton.Content = "Embriaguez";
                     break;
                 case App.Idiomas.INGLES:
                     CachearButton.Content = "Search";
@@ -111,6 +114,9 @@ namespace DSI_Proyecto
                     AceptarButton.Content = "Accept";
                     RechazarButton.Content = "Reject";
                     VestimentaButton.Content = "Clothing";
+                    ObjetosButton.Content = "Illegal objects";
+                    DocumentationButton.Content = "Documentation";
+                    DrunkButton.Content = "Drunkenness";
                     break;
                 case App.Idiomas.CHINO:
                     CachearButton.Content = "搜索";
@@ -118,6 +124,9 @@ namespace DSI_Proyecto
                     AceptarButton.Content = "接受";
                     RechazarButton.Content = "拒绝";
                     VestimentaButton.Content = "服装";
+                    ObjetosButton.Content = "非法物品";
+                    DocumentationButton.Content = "文件资料";
+                    DrunkButton.Content = "酒醉";
                     break;
                 case App.Idiomas.JAPONES:
                     CachearButton.Content = "探す";
@@ -125,28 +134,88 @@ namespace DSI_Proyecto
                     AceptarButton.Content = "受け入れるために";
                     RechazarButton.Content = "拒否する";
                     VestimentaButton.Content = "衣類";
+                    ObjetosButton.Content = "違法なオブジェクト";
+                    DocumentationButton.Content = "ドキュメンテーション";
+                    DrunkButton.Content = "酩酊";
                     break;
             }
 
         }
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            Normas.Text = "- Prohibido zapatillas o chanclas, ropa informal u ofensiva para el local.";
+            switch (App.getIdioma())
+            {
+                case App.Idiomas.ESPAÑOL:
+                    Normas.Text = "- Prohibido zapatillas o chanclas, ropa informal u ofensiva para el local.";
+                    break;
+                case App.Idiomas.INGLES:
+                    Normas.Text = "- Forbidden slippers or flip flops, informal or offensive clothing for the disco.";
+                    break;
+                case App.Idiomas.CHINO:
+                    Normas.Text = "- 处所内严禁穿拖鞋或人字拖鞋，非正式或令人反感的衣服。";
+                    break;
+                case App.Idiomas.JAPONES:
+                    Normas.Text = "- 禁止されているスリッパまたはビーチサンダル、敷地内の非公式または不快な衣服。";
+                    break;
+            }
+
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            Normas.Text = "- Cualquier objeto que pueda afectar a clientes y personal estará prohibido, como drogas y armas.";
+            switch (App.getIdioma())
+            {
+                case App.Idiomas.ESPAÑOL:
+                    Normas.Text = "- Cualquier objeto que pueda afectar a clientes y personal estará prohibido, como drogas y armas.";
+                    break;
+                case App.Idiomas.INGLES:
+                    Normas.Text = "- Any object that could affect clients and staff will be prohibited, such as drugs and weapons.";
+                    break;
+                case App.Idiomas.CHINO:
+                    Normas.Text = "- 禁止使用任何可能影响客户和员工的物品，例如毒品和武器。";
+                    break;
+                case App.Idiomas.JAPONES:
+                    Normas.Text = "- 薬物や武器など、クライアントやスタッフに影響を与える可能性のあるオブジェクトは禁止されます。";
+                    break;
+            }
         }
 
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
-            Normas.Text = "- Prohibida la entrada a cualquiera persona menor de 16 años o que no lleve documentación en regla.";
+            switch (App.getIdioma())
+            {
+                case App.Idiomas.ESPAÑOL:
+                    Normas.Text = "- Prohibida la entrada a cualquiera persona menor de 16 años o que no lleve documentación en regla.";
+                    break;
+                case App.Idiomas.INGLES:
+                    Normas.Text = "- Entry is prohibited to anyone under 16 years of age or who does not carry proper documentation.";
+                    break;
+                case App.Idiomas.CHINO:
+                    Normas.Text = "- 禁止任何未满16周岁或未携带适当证件的人入境。";
+                    break;
+                case App.Idiomas.JAPONES:
+                    Normas.Text = "- 16歳未満の方、または適切な書類を所持していない方の立ち入りは禁止されています。";
+                    break;
+            }
         }
 
         private void Button_Click_3(object sender, RoutedEventArgs e)
         {
-            Normas.Text = "- Cualquier persona que esté en estado de embriaguez severo, no podrá entrar al local.";
+            switch (App.getIdioma())
+            {
+                case App.Idiomas.ESPAÑOL:
+                    Normas.Text = "- Cualquier persona que esté en estado de embriaguez severo, no podrá entrar al local.";
+                    break;
+                case App.Idiomas.INGLES:
+                    Normas.Text = "- Any person who is in a state of severe intoxication, will not be able to enter the disco.";
+                    break;
+                case App.Idiomas.CHINO:
+                    Normas.Text = "- 处于严重中毒状态的任何人将无法进入房屋。";
+                    break;
+                case App.Idiomas.JAPONES:
+                    Normas.Text = "- 重度の中毒状態にある人は、敷地内に立ち入ることができません。";
+                    break;
+            }
         }
     }
 }

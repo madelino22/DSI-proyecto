@@ -326,3 +326,8 @@ D:\uni\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\MenuChat1.g.cs
 D:\uni\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\MenuChat1.xaml
 D:\uni\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\MenuChat1.xbf
 D:\uni\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\MenuChat1.xbf
+C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\MenuChat1.xbf
+C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\MenuChat1.g.i.cs
+C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\MenuChat1.g.cs
+C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\MenuChat1.xaml
+C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\MenuChat1.xbf

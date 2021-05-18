@@ -20,8 +20,14 @@
                 <Image Source="Assets/shop.png" Grid.Column="1" VerticalAlignment="Center" Width="20"/>
                 <TextBlock Text="Sech" FontSize="20" Grid.Column="2" VerticalAlignment="Center"/>
             </Grid>
-
         </DataTemplate>
+        <Style x:Key="EstiloTextBlock" TargetType="TextBlock">
+            <Setter Property="FontSize" Value="25" />
+            <Setter Property="HorizontalAlignment" Value="Right" />
+            <Setter Property="VerticalAlignment" Value="Center" />
+            <Setter Property="Margin" Value="20,0,0,0" />
+            <Setter Property="Foreground" Value="Black"></Setter>
+        </Style>
     </Page.Resources>
 
 
@@ -60,9 +66,33 @@
                 </StackPanel>
 
 
-                <ListView x:Name="ImageGridView" Margin="32,209,38,181"
+                <GridView x:Name="ImageGridView" Margin="40,204,40,205" MaxWidth="320"
                   Background="Transparent" IsItemClickEnabled="True"  ItemTemplate="{StaticResource ImageGridView_DefaultItemTemplate}" >
-                </ListView>
+                    <GridViewItem  Margin="12" Height="100" Width="100" BorderThickness="2" Background="LightBlue" >
+                        <StackPanel Name="Remera" Orientation="Horizontal">
+                            <Image Source="Assets/remera.PNG" ></Image>
+                            <TextBlock Style="{StaticResource EstiloTextBlock}" HorizontalAlignment="Center"  Text="100"></TextBlock>
+                        </StackPanel>
+                    </GridViewItem>
+                    <GridViewItem  Margin="33, 0, 0, 0" Height="100" Width="95" BorderThickness="2" Background="LightBlue" >
+                        <StackPanel Name="Gorra" Orientation="Horizontal">
+                            <Image Source="Assets/gorra.PNG" ></Image>
+                            <TextBlock Style="{StaticResource EstiloTextBlock}" HorizontalAlignment="Center"  Text="100"></TextBlock>
+                        </StackPanel>
+                    </GridViewItem>
+                    <GridViewItem  Margin="12" Height="100" Width="95" BorderThickness="2" Background="LightBlue" >
+                        <StackPanel Name="Pantalon"  Orientation="Vertical">
+                            <Image Source="Assets/pantalon.PNG" ></Image>
+                            <TextBlock Style="{StaticResource EstiloTextBlock}" HorizontalAlignment="Center"  Text="100"></TextBlock>
+                        </StackPanel>
+                    </GridViewItem>
+                    <GridViewItem  Margin="33, 0 0, 0" Height="100" Width="95" BorderThickness="2" Background="LightBlue" >
+                        <StackPanel Name="Camiseta"  Orientation="Vertical">
+                            <Image Source="Assets/agua.PNG" ></Image>
+                            <TextBlock Style="{StaticResource EstiloTextBlock}" HorizontalAlignment="Center"  Text="100"></TextBlock>
+                        </StackPanel>
+                    </GridViewItem>
+                </GridView>
 
 
 
@@ -71,6 +101,15 @@
                     <Button Margin="15,0,0,0" x:Name="ShopButton" Background="Transparent"  CornerRadius="70" Click="ShopButton_Click">
                         <StackPanel HorizontalAlignment="Right" Orientation="Horizontal">
                             <Image Source="Assets/home.png"  Height="35"/>
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+
+                <StackPanel Margin="-25,0,0,30" Grid.Column="0"  Grid.Row= "1"  HorizontalAlignment="Center" Orientation="Horizontal" VerticalAlignment="Bottom"  >
+
+                    <Button Margin="200,-230,0,0" x:Name="Money" Background="Yellow"  CornerRadius="70" Click="ShopButton_Click">
+                        <StackPanel HorizontalAlignment="Right" Orientation="Horizontal">
+                            <TextBlock Text="1000" FontSize="30"/>
                         </StackPanel>
                     </Button>
                 </StackPanel>

@@ -11,7 +11,7 @@
 
     <Page.Resources>
         <Style x:Key="EstiloBotones" TargetType="Button">
-            <Setter Property="FontSize" Value="30" />
+            <Setter Property="FontSize" Value="20" />
             <Setter Property="Margin" Value="0,5,0,0" />
             <Setter Property="CornerRadius" Value="15" />
             <Setter Property="Background" Value="Purple" />
@@ -66,10 +66,10 @@
                         <Grid>
                             <Image  Source="Assets/librillo.PNG" />
                             <Button x:ConnectionId='7' x:Name="VestimentaButton" Content="Vestimenta" Margin="114,54,0,0" Style= "{StaticResource EstiloBotones}" VerticalAlignment="Top" Height="41" Width="122"                     />
-                            <Button x:ConnectionId='8' Content="Objetos ilegales" Margin="48,100,0,0" Style= "{StaticResource EstiloBotones}" VerticalAlignment="Top"                       />
-                            <Button x:ConnectionId='9' Content="Documentación" Margin="48,159,0,0" Style= "{StaticResource EstiloBotones}" VerticalAlignment="Top"                       />
-                            <Button x:ConnectionId='10' Content="Embriaguez" Margin="60,217,0,0" Style= "{StaticResource EstiloBotones}" VerticalAlignment="Top"                       />
-                            <TextBlock x:ConnectionId='11' x:Name="Normas" FontSize="20" Text="D" Margin="294,62,57,97" TextWrapping="Wrap" MaxHeight="200" MaxWidth="200" HorizontalTextAlignment="Center"/>
+                            <Button x:ConnectionId='8' x:Name="ObjetosButton" Content="Objetos ilegales" Margin="48,100,0,0" Style= "{StaticResource EstiloBotones}" VerticalAlignment="Top"                       />
+                            <Button x:ConnectionId='9' x:Name="DocumentationButton" Content="Documentación" Margin="48,159,0,0" Style= "{StaticResource EstiloBotones}" VerticalAlignment="Top"                       />
+                            <Button x:ConnectionId='10' x:Name="DrunkButton" Content="Embriaguez" Margin="60,217,0,0" Style= "{StaticResource EstiloBotones}" VerticalAlignment="Top"                        />
+                            <TextBlock x:ConnectionId='11' x:Name="Normas" FontSize="20" Text="" Margin="294,62,57,97" TextWrapping="Wrap" MaxHeight="200" MaxWidth="200" HorizontalTextAlignment="Center"/>
                         </Grid>
                     </ContentControl>
                 </Canvas>

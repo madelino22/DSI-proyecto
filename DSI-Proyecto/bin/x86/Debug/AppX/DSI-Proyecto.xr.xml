@@ -134,7 +134,6 @@
       <RootProperty Name="IsItemClickEnabled" />
       <RootProperty Name="Height" />
       <RootProperty Name="Items" />
-      <RootProperty Name="ItemTemplate" />
       <RootEvent Name="ItemClick" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ListViewItem">
@@ -151,6 +150,22 @@
     <RootType FullName="DSI_Proyecto.MenuChat1" />
     <RootType FullName="DSI_Proyecto.MenuPausa" />
     <RootType FullName="DSI_Proyecto.MenuPrincipal" />
+    <RootType FullName="Windows.UI.Xaml.Controls.GridView">
+      <RootProperty Name="Margin" />
+      <RootProperty Name="MaxWidth" />
+      <RootProperty Name="Background" />
+      <RootProperty Name="IsItemClickEnabled" />
+      <RootProperty Name="ItemTemplate" />
+      <RootProperty Name="Items" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.GridViewItem">
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="BorderThickness" />
+      <RootProperty Name="Background" />
+      <RootProperty Name="Content" />
+    </RootType>
     <RootType FullName="DSI_Proyecto.MenuTienda0" />
     <RootType FullName="DSI_Proyecto.movilGraficos" />
     <RootType FullName="DSI_Proyecto.movilIdioma" />
