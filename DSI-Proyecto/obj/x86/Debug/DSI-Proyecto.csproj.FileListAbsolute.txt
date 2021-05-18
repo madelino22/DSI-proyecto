@@ -321,3 +321,8 @@ C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\MultipleQualifie
 C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\ProjectArchitectures.txt
 C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885238160000000.json
 C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885274160000000.json
+D:\uni\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\MenuChat1.g.i.cs
+D:\uni\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\MenuChat1.g.cs
+D:\uni\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\MenuChat1.xaml
+D:\uni\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\MenuChat1.xbf
+D:\uni\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\MenuChat1.xbf

@@ -1,4 +1,6 @@
-﻿using System;
+﻿
+
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -32,9 +34,17 @@ namespace DSI_Proyecto
             App.TryGoBack();
         }
 
-        private void ShopButton_Click(object sender, RoutedEventArgs e)
+        private void HomeButton_Click(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(MenuPausa));
+        }
+
+        private void ImageGridView_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            StackPanel s = e.ClickedItem as StackPanel;
+            string nombre = s.Name;
+
+            this.Frame.Navigate(typeof(MenuChat1), nombre);
         }
     }
 }
