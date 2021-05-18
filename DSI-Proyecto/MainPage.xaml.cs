@@ -5,6 +5,7 @@ using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.UI.Input;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -23,6 +24,8 @@ namespace DSI_Proyecto
     public sealed partial class MainPage : Page
     {
         bool movilClick = false;
+        bool libroClick = false;
+        bool botIzq = false;
         public MainPage()
         {
             this.InitializeComponent();
@@ -43,7 +46,55 @@ namespace DSI_Proyecto
         private void Grid_PointerReleased(object sender, PointerRoutedEventArgs e)
         {
             movilClick = false;
+            libroClick = false;
 
+
+        }
+
+        private void Image_PointerPressed_1(object sender, PointerRoutedEventArgs e)
+        {
+            libroClick = true;
+        }
+
+        private void Image_PointerReleased_1(object sender, PointerRoutedEventArgs e)
+        {
+            if (libroClick)
+            {
+                if (LibroCentro.Visibility == Visibility.Collapsed) LibroCentro.Visibility = Visibility.Visible;
+                else if (LibroCentro.Visibility == Visibility.Visible) LibroCentro.Visibility = Visibility.Collapsed;
+            }
+            libroClick = false;
+        }
+
+        private void LibroCentro_PointerMoved(object sender, PointerRoutedEventArgs e)
+        {
+            if (LibroCentro.Visibility == Visibility.Visible)
+            {
+                PointerPoint NewptrPt = e.GetCurrentPoint(MiCanvas);
+                if (botIzq)
+                {
+
+                    LibroCentro.SetValue(Canvas.TopProperty, NewptrPt.Position.Y - 150);
+                    LibroCentro.SetValue(Canvas.LeftProperty, NewptrPt.Position.X - 280);
+
+                }
+            }
+        }
+
+        private void LibroCentro_PointerPressed(object sender, PointerRoutedEventArgs e)
+        {
+            if (LibroCentro.Visibility == Visibility.Visible)
+            {
+                if(e.GetCurrentPoint(MiCanvas).Properties.IsLeftButtonPressed) botIzq = true;
+            }
+        }
+
+        private void LibroCentro_PointerReleased(object sender, PointerRoutedEventArgs e)
+        {
+            if (LibroCentro.Visibility == Visibility.Visible)
+            {
+                botIzq = false;
+            }
         }
     }
 }

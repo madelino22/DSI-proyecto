@@ -85,6 +85,9 @@
     <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\Assets\keko.PNG">
       <PackagePath>Assets\keko.PNG</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\Assets\librillo.PNG">
+      <PackagePath>Assets\librillo.PNG</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\Assets\libro.png">
       <PackagePath>Assets\libro.png</PackagePath>
     </AppxPackagedFile>

@@ -20,7 +20,7 @@
         </Style>
 
     </Page.Resources>
-
+    
     <Grid x:ConnectionId='2'                                       >
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="2*"/>
@@ -58,12 +58,27 @@
             </Grid>
         </Viewbox>
 
+        <Viewbox Grid.Row="0" Grid.Column="0" Grid.RowSpan="2">
+            <Grid Height="1000" Width="1000">
+                <Canvas x:ConnectionId='5' x:Name="MiCanvas"                                               >
+
+                    <ContentControl x:ConnectionId='6' x:Name="LibroCentro"                                                                                                                                     RenderTransformOrigin="0.496,0.528" Canvas.Left="222" Canvas.Top="322">
+                        <Grid>
+                            <Image  Source="Assets/librillo.PNG" />
+                            <Button Content="Vestimenta" Margin="60,-100,0,0" Style= "{StaticResource EstiloBotones}"/>
+
+                        </Grid>
+                    </ContentControl>
+                </Canvas>
+            </Grid>
+        </Viewbox>
+      
         <!--Izquierda-->
         <Viewbox Grid.Row="1" Grid.Column="0" VerticalAlignment="Bottom" HorizontalAlignment="Center" >
             <StackPanel Orientation="Horizontal" Margin="0,0,0,20">
-                <Image Source="Assets/libro.png" MaxHeight="100" MaxWidth="100" HorizontalAlignment="Left" Height="Auto" Margin="0,0,700,0"/>
-                
-                <Image x:ConnectionId='3' Grid.Column="0"                                                                               Grid.Row="1" Source="Assets/movil.png" MaxHeight="100" MaxWidth="100" HorizontalAlignment="Right"/>
+                <Image x:ConnectionId='3' Source="Assets/libro.png"                                                                                    MaxHeight="100" MaxWidth="100" HorizontalAlignment="Left" Height="Auto" Margin="0,0,700,0"/>
+
+                <Image x:ConnectionId='4' Grid.Column="0"                                                                               Grid.Row="1" Source="Assets/movil.png" MaxHeight="100" MaxWidth="100" HorizontalAlignment="Right"/>
             </StackPanel>
         </Viewbox>
 

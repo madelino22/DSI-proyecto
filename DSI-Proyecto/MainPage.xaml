@@ -20,7 +20,7 @@
         </Style>
 
     </Page.Resources>
-
+    
     <Grid PointerReleased="Grid_PointerReleased">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="2*"/>
@@ -58,11 +58,26 @@
             </Grid>
         </Viewbox>
 
+        <Viewbox Grid.Row="0" Grid.Column="0" Grid.RowSpan="2">
+            <Grid Height="1000" Width="1000">
+                <Canvas x:Name="MiCanvas"  PointerReleased="LibroCentro_PointerReleased">
+
+                    <ContentControl x:Name="LibroCentro"   PointerMoved="LibroCentro_PointerMoved" PointerPressed="LibroCentro_PointerPressed" PointerReleased="LibroCentro_PointerReleased" RenderTransformOrigin="0.496,0.528" Canvas.Left="222" Canvas.Top="322">
+                        <Grid>
+                            <Image  Source="Assets/librillo.PNG" />
+                            <Button Content="Vestimenta" Margin="60,-100,0,0" Style= "{StaticResource EstiloBotones}"/>
+
+                        </Grid>
+                    </ContentControl>
+                </Canvas>
+            </Grid>
+        </Viewbox>
+      
         <!--Izquierda-->
         <Viewbox Grid.Row="1" Grid.Column="0" VerticalAlignment="Bottom" HorizontalAlignment="Center" >
             <StackPanel Orientation="Horizontal" Margin="0,0,0,20">
-                <Image Source="Assets/libro.png" MaxHeight="100" MaxWidth="100" HorizontalAlignment="Left" Height="Auto" Margin="0,0,700,0"/>
-                
+                <Image Source="Assets/libro.png" PointerPressed= "Image_PointerPressed_1" PointerReleased="Image_PointerReleased_1" MaxHeight="100" MaxWidth="100" HorizontalAlignment="Left" Height="Auto" Margin="0,0,700,0"/>
+
                 <Image Grid.Column="0" PointerPressed="Image_PointerPressed" PointerReleased="Image_PointerReleased" Grid.Row="1" Source="Assets/movil.png" MaxHeight="100" MaxWidth="100" HorizontalAlignment="Right"/>
             </StackPanel>
         </Viewbox>
