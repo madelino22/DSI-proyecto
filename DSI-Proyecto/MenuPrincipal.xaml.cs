@@ -51,5 +51,36 @@ namespace DSI_Proyecto
             this.Frame.Navigate(typeof(MainPage));
 
         }
+
+        override protected void OnNavigatedTo(NavigationEventArgs e)
+        {
+            switch (App.getIdioma())
+            {
+                case App.Idiomas.ESPAÑOL:
+                    PlayButton.Content = "Jugar";
+                    NewGameButton.Content = "N. Partida";
+                    OptionsButton.Content = "Opciones";
+                    QuitButton.Content = "Salir";
+                    break;
+                case App.Idiomas.INGLES:
+                    PlayButton.Content = "Play";
+                    NewGameButton.Content = "New Game";
+                    OptionsButton.Content = "Settings";
+                    QuitButton.Content = "Exit";
+                    break;
+                case App.Idiomas.CHINO:
+                    PlayButton.Content = "玩";
+                    NewGameButton.Content = "新游戏";
+                    OptionsButton.Content = "环境";
+                    QuitButton.Content = "离开";
+                    break;
+                case App.Idiomas.JAPONES:
+                    PlayButton.Content = "演奏する";
+                    NewGameButton.Content = "新しいゲーム";
+                    OptionsButton.Content = "設定";
+                    QuitButton.Content = "去る";
+                    break;
+            }
+        }
     }
 }

@@ -56,7 +56,6 @@ namespace DSI_Proyecto
                     ModoDaltonicoButton.Content = "色覚異常モード";
                     break;
             }
-
         }
     }
 }

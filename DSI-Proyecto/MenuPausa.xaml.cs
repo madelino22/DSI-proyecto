@@ -42,5 +42,10 @@ namespace DSI_Proyecto
         {
             this.Frame.Navigate(typeof(movilOpciones0));
         }
+
+        private void backButton_Click(object sender, RoutedEventArgs e)
+        {
+            App.TryGoBack();
+        }
     }
 }

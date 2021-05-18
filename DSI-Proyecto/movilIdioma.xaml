@@ -35,8 +35,13 @@
                     <RowDefinition Height="*"></RowDefinition>
                     <RowDefinition Height="*"></RowDefinition>
                 </Grid.RowDefinitions>
+                <!--<Button Margin="0,0,0,0" x:Name="BackButton" Background="Transparent"  CornerRadius="70" Click="BackButton_Click">
+                    <StackPanel HorizontalAlignment="Right" Orientation="Horizontal">
+                        <Image Source="Assets/atras.png"  Height="35"/>
+                    </StackPanel>
+                </Button>-->
 
-                <Button x:Name="backButton" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Top" Style="{StaticResource NavigationBackButtonNormalStyle}" Click="backButton_Click" Margin="-150,70,0,0"/>
+                <Button x:Name="backButton" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Top" Style="{StaticResource NavigationBackButtonNormalStyle}" CornerRadius="70" Click="backButton_Click" Margin="-150,70,0,0"/>
                 <StackPanel x:Name="panelOpciones" Grid.Row="0" Grid.RowSpan="7" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0,0,0,0" Spacing="0">
                     <Button x:Name="chinoButton" Content="官话" Style="{StaticResource EstiloBotones}" Click="chinoButton_Click"/>
                     <Button x:Name="españolButton" Content="Español" Style="{StaticResource EstiloBotones}" Click="españolButton_Click"/>

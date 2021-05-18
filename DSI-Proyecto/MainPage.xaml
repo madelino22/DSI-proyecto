@@ -48,12 +48,12 @@
             <Grid Height="500" Width="500">
                 <StackPanel Orientation="Vertical" VerticalAlignment="Top"
                              Margin="0,90,400,0" MaxHeight="200" MaxWidth="100">
-                    <Button Content="Cachear" Style= "{StaticResource EstiloBotones}"/>
-                    <Button Content="DNI" Margin="10,53,0,0" Style="{StaticResource EstiloBotones}"/>
+                    <Button x:Name="CachearButton" Content="Cachear" Style= "{StaticResource EstiloBotones}"/>
+                    <Button x:Name="DNIButton" Content="DNI" Margin="10,53,0,0" Style="{StaticResource EstiloBotones}"/>
                 </StackPanel>
-                <Button Content="Aceptar" VerticalAlignment="Bottom" Margin="10,0,0,46"
+                <Button  x:Name="AceptarButton" Content="Aceptar" VerticalAlignment="Bottom" Margin="10,0,0,46"
                             Style="{StaticResource EstiloBotones}"/>
-                <Button Content="Rechazar" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="0,0,10,46"
+                <Button x:Name="RechazarButton" Content="Rechazar" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="0,0,10,46"
                             Style="{StaticResource EstiloBotones}"/>
             </Grid>
         </Viewbox>
@@ -65,7 +65,7 @@
                     <ContentControl x:Name="LibroCentro"   PointerMoved="LibroCentro_PointerMoved" PointerPressed="LibroCentro_PointerPressed" PointerReleased="LibroCentro_PointerReleased" RenderTransformOrigin="0.496,0.528" Canvas.Left="222" Canvas.Top="322">
                         <Grid>
                             <Image  Source="Assets/librillo.PNG" />
-                            <Button Content="Vestimenta" Margin="60,-100,0,0" Style= "{StaticResource EstiloBotones}"/>
+                            <Button x:Name="VestimentaButton" Content="Vestimenta" Margin="60,-100,0,0" Style= "{StaticResource EstiloBotones}"/>
 
                         </Grid>
                     </ContentControl>

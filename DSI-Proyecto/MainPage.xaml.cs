@@ -48,7 +48,6 @@ namespace DSI_Proyecto
             movilClick = false;
             libroClick = false;
 
-
         }
 
         private void Image_PointerPressed_1(object sender, PointerRoutedEventArgs e)
@@ -73,10 +72,8 @@ namespace DSI_Proyecto
                 PointerPoint NewptrPt = e.GetCurrentPoint(MiCanvas);
                 if (botIzq)
                 {
-
                     LibroCentro.SetValue(Canvas.TopProperty, NewptrPt.Position.Y - 150);
                     LibroCentro.SetValue(Canvas.LeftProperty, NewptrPt.Position.X - 280);
-
                 }
             }
         }
@@ -94,6 +91,41 @@ namespace DSI_Proyecto
             if (LibroCentro.Visibility == Visibility.Visible)
             {
                 botIzq = false;
+            }
+        }
+
+        override protected void OnNavigatedTo(NavigationEventArgs e)
+        {
+            switch (App.getIdioma())
+            {
+                case App.Idiomas.ESPAÑOL:
+                    CachearButton.Content = "Cachear";
+                    DNIButton.Content = "Pedir DNI";
+                    AceptarButton.Content = "Aceptar";
+                    RechazarButton.Content = "Rechazar";
+                    VestimentaButton.Content = "Vestimenta";
+                    break;
+                case App.Idiomas.INGLES:
+                    CachearButton.Content = "Search";
+                    DNIButton.Content = "Ask for ID";
+                    AceptarButton.Content = "Accept";
+                    RechazarButton.Content = "Reject";
+                    VestimentaButton.Content = "Clothing";
+                    break;
+                case App.Idiomas.CHINO:
+                    CachearButton.Content = "搜索";
+                    DNIButton.Content = "索取身份证";
+                    AceptarButton.Content = "接受";
+                    RechazarButton.Content = "拒绝";
+                    VestimentaButton.Content = "服装";
+                    break;
+                case App.Idiomas.JAPONES:
+                    CachearButton.Content = "探す";
+                    DNIButton.Content = "IDを要求する";
+                    AceptarButton.Content = "受け入れるために";
+                    RechazarButton.Content = "拒否する";
+                    VestimentaButton.Content = "衣類";
+                    break;
             }
         }
     }
