@@ -226,3 +226,8 @@ C:\Users\roy_x\OneDrive\Escritorio\GitHub\DSI-proyecto\DSI-Proyecto\obj\x86\Debu
 C:\Users\roy_x\OneDrive\Escritorio\GitHub\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\MenuChat0.xbf
 C:\Users\roy_x\OneDrive\Escritorio\GitHub\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\MenuTienda0.xbf
 C:\Users\roy_x\OneDrive\Escritorio\GitHub\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885238160000000.json
+D:\uni\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\MenuTienda0.xbf
+D:\uni\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\MenuTienda0.g.i.cs
+D:\uni\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\MenuTienda0.g.cs
+D:\uni\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\MenuTienda0.xaml
+D:\uni\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\MenuTienda0.xbf

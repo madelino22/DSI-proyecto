@@ -22,9 +22,28 @@ namespace DSI_Proyecto
     /// </summary>
     public sealed partial class MainPage : Page
     {
+        bool movilClick = false;
         public MainPage()
         {
             this.InitializeComponent();
+        }
+
+        private void Image_PointerPressed(object sender, PointerRoutedEventArgs e)
+        {
+            movilClick = true;
+        }
+
+        private void Image_PointerReleased(object sender, PointerRoutedEventArgs e)
+        {
+            if(movilClick) this.Frame.Navigate(typeof(MenuPausa));
+
+            movilClick = false;
+        }
+
+        private void Grid_PointerReleased(object sender, PointerRoutedEventArgs e)
+        {
+            movilClick = false;
+
         }
     }
 }

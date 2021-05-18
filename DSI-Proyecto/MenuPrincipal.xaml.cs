@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
+using Windows.ApplicationModel.Core;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.UI.Xaml;
@@ -30,6 +31,25 @@ namespace DSI_Proyecto
         private void OptionsButton_Click(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(movilOpciones0));
+        }
+
+      
+
+        private void QuitButton_Click(object sender, RoutedEventArgs e)
+        {
+            CoreApplication.Exit();
+        }
+
+        private void PlayButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(MainPage));
+
+        }
+
+        private void NewGameButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(MainPage));
+
         }
     }
 }

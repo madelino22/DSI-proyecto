@@ -21,7 +21,7 @@
 
     </Page.Resources>
 
-    <Grid>
+    <Grid PointerReleased="Grid_PointerReleased">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="2*"/>
             <ColumnDefinition/>
@@ -62,7 +62,8 @@
         <Viewbox Grid.Row="1" Grid.Column="0" VerticalAlignment="Bottom" HorizontalAlignment="Center" >
             <StackPanel Orientation="Horizontal" Margin="0,0,0,20">
                 <Image Source="Assets/libro.png" MaxHeight="100" MaxWidth="100" HorizontalAlignment="Left" Height="Auto" Margin="0,0,700,0"/>
-                <Image Grid.Column="0" Grid.Row="1" Source="Assets/movil.png" MaxHeight="100" MaxWidth="100" HorizontalAlignment="Right"/>
+                
+                <Image Grid.Column="0" PointerPressed="Image_PointerPressed" PointerReleased="Image_PointerReleased" Grid.Row="1" Source="Assets/movil.png" MaxHeight="100" MaxWidth="100" HorizontalAlignment="Right"/>
             </StackPanel>
         </Viewbox>
 

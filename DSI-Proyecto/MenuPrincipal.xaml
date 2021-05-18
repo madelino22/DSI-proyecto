@@ -41,20 +41,20 @@
                 <Image CenterPoint="0,0,0" Source="Assets/movilMenuPrincipal.png" />
                 <StackPanel Grid.Column="1"  Grid.Row= "1"  HorizontalAlignment="Center" VerticalAlignment="Center" >
 
-                    <Button  x:Name="PlayButton" Style="{StaticResource EstiloBotones}" Margin="0,20,0,0" IsTabStop="True" TabIndex="1">
+                    <Button  x:Name="PlayButton" Style="{StaticResource EstiloBotones}" Margin="0,20,0,0" IsTabStop="True" TabIndex="1" Click="PlayButton_Click">
                         <StackPanel HorizontalAlignment="Right" Orientation="Horizontal">
                             <Image Source="Assets/play.png" Height="45"/>
                             <TextBlock Text="Jugar" Foreground="White"
-                                 HorizontalAlignment="Center" />
+                                 HorizontalAlignment="Center"  />
                         </StackPanel>
                     </Button>
 
 
-                    <Button  x:Name="NewGameButton" Style="{StaticResource EstiloBotones}" IsTabStop="True" TabIndex="2">
+                    <Button  x:Name="NewGameButton" Style="{StaticResource EstiloBotones}" IsTabStop="True" TabIndex="2" Click="NewGameButton_Click">
                         <StackPanel HorizontalAlignment="Right" Orientation="Horizontal">
                             <Image Source="Assets/repeat.jpg" Height="45"/>
                             <TextBlock Text="N. Partida" Foreground="White"
-                   HorizontalAlignment="Center" />
+                   HorizontalAlignment="Center"  />
                         </StackPanel>
                     </Button>
 
@@ -67,7 +67,7 @@
                         </StackPanel>
                     </Button>
 
-                    <Button  x:Name="QuitButton" Style="{StaticResource EstiloBotones}" IsTabStop="True" TabIndex="4">
+                    <Button  x:Name="QuitButton" Style="{StaticResource EstiloBotones}" IsTabStop="True" TabIndex="4" Click="QuitButton_Click">
                         <StackPanel HorizontalAlignment="Right" Orientation="Horizontal">
                             <Image Source="Assets/salir.png" Height="45"/>
                             <TextBlock Text="Salir" Foreground="White"

@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>DESKTOP-6IE6COH</Machine>
-    <WindowsUser>roy_x</WindowsUser>
+    <Machine>DESKTOP-70EV4UM</Machine>
+    <WindowsUser>manue</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>81cd11a5-0c84-4abf-934c-6714eb7fb660</PackageIdentityName>
     <PackageIdentityPublisher>CN=manue</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\roy_x\OneDrive\Escritorio\GitHub\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>D:\uni\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,8 +18,8 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\roy_x\OneDrive\Escritorio\GitHub\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>FF5EE6EF02B017475895BA0550B06B4F605CFF4D0D1B22D2308CF006AE6FF599</RegisteredManifestChecksum>
+    <LayoutDir>D:\uni\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>D2427009B4C619B5FB2B86B46EB26416D4A30BC54BCD0F66E2B175DCF16289D6</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>81cd11a5-0c84-4abf-934c-6714eb7fb660_1.0.0.0_x86__2csccb14jvxhc</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>81cd11a5-0c84-4abf-934c-6714eb7fb660_2csccb14jvxhc!App</RegisteredUserModeAppID>
     <RegisteredPackageID>81cd11a5-0c84-4abf-934c-6714eb7fb660</RegisteredPackageID>
@@ -27,286 +27,286 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\roy_x\OneDrive\Escritorio\GitHub\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-05-13T10:03:39.841</Modified>
+      <Modified>2021-05-18T10:26:02.408</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\roy_x\OneDrive\Escritorio\GitHub\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\DSI-Proyecto.exe">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\DSI-Proyecto.exe">
       <PackagePath>entrypoint\DSI-Proyecto.exe</PackagePath>
-      <Modified>2021-05-13T10:03:39.448</Modified>
+      <Modified>2021-05-18T10:26:01.906</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
-      <Modified>2020-02-27T17:16:04.000</Modified>
+      <Modified>2020-02-27T18:16:04.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2019-03-18T17:36:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\roy_x\OneDrive\Escritorio\GitHub\DSI-proyecto\DSI-Proyecto\Assets\atras.png">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\Assets\atras.png">
       <PackagePath>Assets\atras.png</PackagePath>
-      <Modified>2021-05-10T09:23:37.017</Modified>
+      <Modified>2021-05-08T16:18:22.118</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\roy_x\OneDrive\Escritorio\GitHub\DSI-proyecto\DSI-Proyecto\Assets\banderaChina.png">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\Assets\banderaChina.png">
       <PackagePath>Assets\banderaChina.png</PackagePath>
-      <Modified>2021-05-10T20:45:39.600</Modified>
+      <Modified>2021-05-11T09:09:08.123</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\roy_x\OneDrive\Escritorio\GitHub\DSI-proyecto\DSI-Proyecto\Assets\banderaEspaña.png">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\Assets\banderaEspaña.png">
       <PackagePath>Assets\banderaEspaña.png</PackagePath>
-      <Modified>2021-05-10T20:45:01.269</Modified>
+      <Modified>2021-05-11T09:09:08.125</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\roy_x\OneDrive\Escritorio\GitHub\DSI-proyecto\DSI-Proyecto\Assets\banderaJapon.png">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\Assets\banderaJapon.png">
       <PackagePath>Assets\banderaJapon.png</PackagePath>
-      <Modified>2021-05-10T20:45:35.741</Modified>
+      <Modified>2021-05-11T09:09:08.127</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\roy_x\OneDrive\Escritorio\GitHub\DSI-proyecto\DSI-Proyecto\Assets\banderaUK.png">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\Assets\banderaUK.png">
       <PackagePath>Assets\banderaUK.png</PackagePath>
-      <Modified>2021-05-10T20:45:12.310</Modified>
+      <Modified>2021-05-11T09:09:08.129</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\roy_x\OneDrive\Escritorio\GitHub\DSI-proyecto\DSI-Proyecto\Assets\chat.png">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\Assets\chat.png">
       <PackagePath>Assets\chat.png</PackagePath>
-      <Modified>2021-05-10T09:23:37.017</Modified>
+      <Modified>2021-05-08T16:20:41.634</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\roy_x\OneDrive\Escritorio\GitHub\DSI-proyecto\DSI-Proyecto\Assets\cliente.png">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\Assets\cliente.png">
       <PackagePath>Assets\cliente.png</PackagePath>
-      <Modified>2021-05-10T09:23:37.019</Modified>
+      <Modified>2021-05-08T17:30:32.352</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\roy_x\OneDrive\Escritorio\GitHub\DSI-proyecto\DSI-Proyecto\Assets\cola.png">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\Assets\cola.png">
       <PackagePath>Assets\cola.png</PackagePath>
-      <Modified>2021-05-10T09:23:37.020</Modified>
+      <Modified>2021-05-08T17:30:23.537</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\roy_x\OneDrive\Escritorio\GitHub\DSI-proyecto\DSI-Proyecto\Assets\completa.png">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\Assets\completa.png">
       <PackagePath>Assets\completa.png</PackagePath>
-      <Modified>2021-05-10T09:23:37.020</Modified>
+      <Modified>2021-05-08T16:20:56.809</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\roy_x\OneDrive\Escritorio\GitHub\DSI-proyecto\DSI-Proyecto\Assets\daltonico.png">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\Assets\daltonico.png">
       <PackagePath>Assets\daltonico.png</PackagePath>
-      <Modified>2021-05-10T09:23:37.021</Modified>
+      <Modified>2021-05-08T16:20:52.561</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\roy_x\OneDrive\Escritorio\GitHub\DSI-proyecto\DSI-Proyecto\Assets\dandi.PNG">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\Assets\dandi.PNG">
       <PackagePath>Assets\dandi.PNG</PackagePath>
-      <Modified>2021-05-13T09:10:31.134</Modified>
+      <Modified>2021-05-12T08:53:22.163</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\roy_x\OneDrive\Escritorio\GitHub\DSI-proyecto\DSI-Proyecto\Assets\fondoPapel.png">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\Assets\fondoPapel.png">
       <PackagePath>Assets\fondoPapel.png</PackagePath>
-      <Modified>2021-05-10T09:23:37.024</Modified>
+      <Modified>2021-05-08T17:31:10.078</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\roy_x\OneDrive\Escritorio\GitHub\DSI-proyecto\DSI-Proyecto\Assets\gorra.PNG">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\Assets\gorra.PNG">
       <PackagePath>Assets\gorra.PNG</PackagePath>
-      <Modified>2021-05-13T09:10:31.135</Modified>
+      <Modified>2021-05-12T08:53:42.272</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\roy_x\OneDrive\Escritorio\GitHub\DSI-proyecto\DSI-Proyecto\Assets\graficos.png">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\Assets\graficos.png">
       <PackagePath>Assets\graficos.png</PackagePath>
-      <Modified>2021-05-10T09:23:37.025</Modified>
+      <Modified>2021-05-08T16:20:46.711</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\roy_x\OneDrive\Escritorio\GitHub\DSI-proyecto\DSI-Proyecto\Assets\home.png">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\Assets\home.png">
       <PackagePath>Assets\home.png</PackagePath>
-      <Modified>2021-05-10T09:23:37.025</Modified>
+      <Modified>2021-05-08T16:19:06.468</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\roy_x\OneDrive\Escritorio\GitHub\DSI-proyecto\DSI-Proyecto\Assets\idiomas.png">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\Assets\idiomas.png">
       <PackagePath>Assets\idiomas.png</PackagePath>
-      <Modified>2021-05-10T09:23:37.026</Modified>
+      <Modified>2021-05-08T16:17:52.539</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\roy_x\OneDrive\Escritorio\GitHub\DSI-proyecto\DSI-Proyecto\Assets\keko.PNG">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\Assets\keko.PNG">
       <PackagePath>Assets\keko.PNG</PackagePath>
-      <Modified>2021-05-13T09:10:31.137</Modified>
+      <Modified>2021-05-12T08:53:28.194</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\roy_x\OneDrive\Escritorio\GitHub\DSI-proyecto\DSI-Proyecto\Assets\libro.png">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\Assets\libro.png">
       <PackagePath>Assets\libro.png</PackagePath>
-      <Modified>2021-05-13T09:10:31.138</Modified>
+      <Modified>2021-05-11T14:01:31.004</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\roy_x\OneDrive\Escritorio\GitHub\DSI-proyecto\DSI-Proyecto\Assets\mary.PNG">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\Assets\mary.PNG">
       <PackagePath>Assets\mary.PNG</PackagePath>
-      <Modified>2021-05-13T09:10:31.139</Modified>
+      <Modified>2021-05-12T08:53:32.978</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\roy_x\OneDrive\Escritorio\GitHub\DSI-proyecto\DSI-Proyecto\Assets\moneda.PNG">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\Assets\moneda.PNG">
       <PackagePath>Assets\moneda.PNG</PackagePath>
-      <Modified>2021-05-13T09:10:31.140</Modified>
+      <Modified>2021-05-12T08:54:01.710</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\roy_x\OneDrive\Escritorio\GitHub\DSI-proyecto\DSI-Proyecto\Assets\movil.png">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\Assets\movil.png">
       <PackagePath>Assets\movil.png</PackagePath>
-      <Modified>2021-05-10T09:23:37.026</Modified>
+      <Modified>2021-05-08T15:36:06.908</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\roy_x\OneDrive\Escritorio\GitHub\DSI-proyecto\DSI-Proyecto\Assets\movilchat.PNG">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\Assets\movilchat.PNG">
       <PackagePath>Assets\movilchat.PNG</PackagePath>
-      <Modified>2021-05-13T09:10:31.141</Modified>
+      <Modified>2021-05-12T08:53:10.173</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\roy_x\OneDrive\Escritorio\GitHub\DSI-proyecto\DSI-Proyecto\Assets\movilchatpriv.PNG">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\Assets\movilchatpriv.PNG">
       <PackagePath>Assets\movilchatpriv.PNG</PackagePath>
-      <Modified>2021-05-13T09:10:31.143</Modified>
+      <Modified>2021-05-12T08:52:51.410</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\roy_x\OneDrive\Escritorio\GitHub\DSI-proyecto\DSI-Proyecto\Assets\movilGraficos0.png">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\Assets\movilGraficos0.png">
       <PackagePath>Assets\movilGraficos0.png</PackagePath>
-      <Modified>2021-05-13T09:59:52.397</Modified>
+      <Modified>2021-05-18T10:10:17.408</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\roy_x\OneDrive\Escritorio\GitHub\DSI-proyecto\DSI-Proyecto\Assets\movilIdioma.png">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\Assets\movilIdioma.png">
       <PackagePath>Assets\movilIdioma.png</PackagePath>
-      <Modified>2021-05-13T10:01:18.767</Modified>
+      <Modified>2021-05-18T10:10:17.428</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\roy_x\OneDrive\Escritorio\GitHub\DSI-proyecto\DSI-Proyecto\Assets\movilMenuPrincipal.png">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\Assets\movilMenuPrincipal.png">
       <PackagePath>Assets\movilMenuPrincipal.png</PackagePath>
-      <Modified>2021-05-10T09:23:37.028</Modified>
+      <Modified>2021-05-08T16:57:11.791</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\roy_x\OneDrive\Escritorio\GitHub\DSI-proyecto\DSI-Proyecto\Assets\movilOpciones.png">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\Assets\movilOpciones.png">
       <PackagePath>Assets\movilOpciones.png</PackagePath>
-      <Modified>2021-05-10T09:23:37.029</Modified>
+      <Modified>2021-05-08T16:59:09.341</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\roy_x\OneDrive\Escritorio\GitHub\DSI-proyecto\DSI-Proyecto\Assets\movilPausa.png">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\Assets\movilPausa.png">
       <PackagePath>Assets\movilPausa.png</PackagePath>
-      <Modified>2021-05-10T09:23:37.030</Modified>
+      <Modified>2021-05-08T16:58:41.569</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\roy_x\OneDrive\Escritorio\GitHub\DSI-proyecto\DSI-Proyecto\Assets\moviltienda.PNG">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\Assets\moviltienda.PNG">
       <PackagePath>Assets\moviltienda.PNG</PackagePath>
-      <Modified>2021-05-13T09:10:31.147</Modified>
+      <Modified>2021-05-12T08:54:08.779</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\roy_x\OneDrive\Escritorio\GitHub\DSI-proyecto\DSI-Proyecto\Assets\musica.png">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\Assets\musica.png">
       <PackagePath>Assets\musica.png</PackagePath>
-      <Modified>2021-05-10T09:23:37.030</Modified>
+      <Modified>2021-05-08T16:21:00.910</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\roy_x\OneDrive\Escritorio\GitHub\DSI-proyecto\DSI-Proyecto\Assets\opciones.png">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\Assets\opciones.png">
       <PackagePath>Assets\opciones.png</PackagePath>
-      <Modified>2021-05-10T09:23:37.032</Modified>
+      <Modified>2021-05-08T16:18:50.835</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\roy_x\OneDrive\Escritorio\GitHub\DSI-proyecto\DSI-Proyecto\Assets\pantalon.PNG">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\Assets\pantalon.PNG">
       <PackagePath>Assets\pantalon.PNG</PackagePath>
-      <Modified>2021-05-13T09:10:31.148</Modified>
+      <Modified>2021-05-12T08:53:52.701</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\roy_x\OneDrive\Escritorio\GitHub\DSI-proyecto\DSI-Proyecto\Assets\pepe.PNG">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\Assets\pepe.PNG">
       <PackagePath>Assets\pepe.PNG</PackagePath>
-      <Modified>2021-05-13T09:10:31.149</Modified>
+      <Modified>2021-05-12T08:53:38.396</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\roy_x\OneDrive\Escritorio\GitHub\DSI-proyecto\DSI-Proyecto\Assets\play.png">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\Assets\play.png">
       <PackagePath>Assets\play.png</PackagePath>
-      <Modified>2021-05-10T09:23:37.033</Modified>
+      <Modified>2021-05-08T16:20:27.594</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\roy_x\OneDrive\Escritorio\GitHub\DSI-proyecto\DSI-Proyecto\Assets\remera.PNG">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\Assets\remera.PNG">
       <PackagePath>Assets\remera.PNG</PackagePath>
-      <Modified>2021-05-13T09:10:31.150</Modified>
+      <Modified>2021-05-12T08:53:47.526</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\roy_x\OneDrive\Escritorio\GitHub\DSI-proyecto\DSI-Proyecto\Assets\resolucion.png">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\Assets\resolucion.png">
       <PackagePath>Assets\resolucion.png</PackagePath>
-      <Modified>2021-05-10T09:23:37.034</Modified>
+      <Modified>2021-05-08T16:19:27.012</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\roy_x\OneDrive\Escritorio\GitHub\DSI-proyecto\DSI-Proyecto\Assets\salir.png">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\Assets\salir.png">
       <PackagePath>Assets\salir.png</PackagePath>
-      <Modified>2021-05-10T09:23:37.035</Modified>
+      <Modified>2021-05-08T16:19:54.960</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\roy_x\OneDrive\Escritorio\GitHub\DSI-proyecto\DSI-Proyecto\Assets\salirpartida.png">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\Assets\salirpartida.png">
       <PackagePath>Assets\salirpartida.png</PackagePath>
-      <Modified>2021-05-10T09:23:37.035</Modified>
+      <Modified>2021-05-08T16:19:38.442</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\roy_x\OneDrive\Escritorio\GitHub\DSI-proyecto\DSI-Proyecto\Assets\sech.PNG">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\Assets\sech.PNG">
       <PackagePath>Assets\sech.PNG</PackagePath>
-      <Modified>2021-05-13T09:10:31.151</Modified>
+      <Modified>2021-05-12T08:53:16.494</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\roy_x\OneDrive\Escritorio\GitHub\DSI-proyecto\DSI-Proyecto\Assets\shop.png">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\Assets\shop.png">
       <PackagePath>Assets\shop.png</PackagePath>
-      <Modified>2021-05-10T09:23:37.036</Modified>
+      <Modified>2021-05-08T16:19:47.399</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\roy_x\OneDrive\Escritorio\GitHub\DSI-proyecto\DSI-Proyecto\Assets\sonido.png">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\Assets\sonido.png">
       <PackagePath>Assets\sonido.png</PackagePath>
-      <Modified>2021-05-10T09:23:37.037</Modified>
+      <Modified>2021-05-08T16:20:32.203</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\roy_x\OneDrive\Escritorio\GitHub\DSI-proyecto\DSI-Proyecto\Assets\taberna.png">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\Assets\taberna.png">
       <PackagePath>Assets\taberna.png</PackagePath>
-      <Modified>2021-05-10T09:23:37.038</Modified>
+      <Modified>2021-05-08T15:28:50.256</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\roy_x\OneDrive\Escritorio\GitHub\DSI-proyecto\DSI-Proyecto\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2021-05-10T09:23:37.013</Modified>
+      <Modified>2021-02-17T20:43:36.271</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\roy_x\OneDrive\Escritorio\GitHub\DSI-proyecto\DSI-Proyecto\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-05-10T09:23:37.013</Modified>
+      <Modified>2021-02-17T20:43:36.274</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\roy_x\OneDrive\Escritorio\GitHub\DSI-proyecto\DSI-Proyecto\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-05-10T09:23:37.014</Modified>
+      <Modified>2021-02-17T20:43:36.275</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\roy_x\OneDrive\Escritorio\GitHub\DSI-proyecto\DSI-Proyecto\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-05-10T09:23:37.014</Modified>
+      <Modified>2021-02-17T20:43:36.276</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\roy_x\OneDrive\Escritorio\GitHub\DSI-proyecto\DSI-Proyecto\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-05-10T09:23:37.015</Modified>
+      <Modified>2021-02-17T20:43:36.277</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\roy_x\OneDrive\Escritorio\GitHub\DSI-proyecto\DSI-Proyecto\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-05-10T09:23:37.015</Modified>
+      <Modified>2021-02-17T20:43:36.278</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\roy_x\OneDrive\Escritorio\GitHub\DSI-proyecto\DSI-Proyecto\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-05-10T09:23:37.016</Modified>
+      <Modified>2021-02-17T20:43:36.279</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\roy_x\OneDrive\Escritorio\GitHub\DSI-proyecto\DSI-Proyecto\Assets\repeat.jpg">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\Assets\repeat.jpg">
       <PackagePath>Assets\repeat.jpg</PackagePath>
-      <Modified>2021-05-10T09:23:37.034</Modified>
+      <Modified>2021-05-08T16:20:36.887</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\roy_x\OneDrive\Escritorio\GitHub\DSI-proyecto\DSI-Proyecto\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2021-05-10T09:23:37.042</Modified>
+      <Modified>2021-05-08T15:24:49.220</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\roy_x\OneDrive\Escritorio\GitHub\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\DSI-Proyecto.xr.xml">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\DSI-Proyecto.xr.xml">
       <PackagePath>DSI-Proyecto.xr.xml</PackagePath>
-      <Modified>2021-05-13T09:56:53.153</Modified>
+      <Modified>2021-05-18T10:18:12.832</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\roy_x\OneDrive\Escritorio\GitHub\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2021-05-13T10:03:39.307</Modified>
+      <Modified>2021-05-18T10:26:01.788</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\roy_x\OneDrive\Escritorio\GitHub\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2021-05-13T10:03:39.307</Modified>
+      <Modified>2021-05-18T10:26:01.836</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\roy_x\OneDrive\Escritorio\GitHub\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\MenuChat0.xbf">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\MenuChat0.xbf">
       <PackagePath>MenuChat0.xbf</PackagePath>
-      <Modified>2021-05-13T10:03:39.307</Modified>
+      <Modified>2021-05-18T10:26:01.837</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\roy_x\OneDrive\Escritorio\GitHub\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\MenuPausa.xbf">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\MenuPausa.xbf">
       <PackagePath>MenuPausa.xbf</PackagePath>
-      <Modified>2021-05-13T10:03:39.308</Modified>
+      <Modified>2021-05-18T10:26:01.838</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\roy_x\OneDrive\Escritorio\GitHub\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\MenuPrincipal.xbf">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\MenuPrincipal.xbf">
       <PackagePath>MenuPrincipal.xbf</PackagePath>
-      <Modified>2021-05-13T10:03:39.308</Modified>
+      <Modified>2021-05-18T10:26:01.839</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\roy_x\OneDrive\Escritorio\GitHub\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\MenuTienda0.xbf">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\MenuTienda0.xbf">
       <PackagePath>MenuTienda0.xbf</PackagePath>
-      <Modified>2021-05-13T10:03:39.308</Modified>
+      <Modified>2021-05-18T10:26:01.839</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\roy_x\OneDrive\Escritorio\GitHub\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\movilGraficos.xbf">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\movilGraficos.xbf">
       <PackagePath>movilGraficos.xbf</PackagePath>
-      <Modified>2021-05-13T10:03:39.308</Modified>
+      <Modified>2021-05-18T10:26:01.840</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\roy_x\OneDrive\Escritorio\GitHub\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\movilIdioma.xbf">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\movilIdioma.xbf">
       <PackagePath>movilIdioma.xbf</PackagePath>
-      <Modified>2021-05-13T10:03:39.308</Modified>
+      <Modified>2021-05-18T10:26:01.841</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\roy_x\OneDrive\Escritorio\GitHub\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\movilOpciones0.xbf">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\movilOpciones0.xbf">
       <PackagePath>movilOpciones0.xbf</PackagePath>
-      <Modified>2021-05-13T10:03:39.308</Modified>
+      <Modified>2021-05-18T10:26:01.842</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2019-03-18T16:33:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\roy_x\OneDrive\Escritorio\GitHub\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2021-05-13T09:17:26.960</Modified>
+      <Modified>2021-05-18T10:12:33.013</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\roy_x\OneDrive\Escritorio\GitHub\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\Core\DSI-Proyecto.exe">
+    <AppxPackagedFile Include="D:\uni\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\Core\DSI-Proyecto.exe">
       <PackagePath>DSI-Proyecto.exe</PackagePath>
-      <Modified>2021-05-13T10:03:39.838</Modified>
+      <Modified>2021-05-18T10:26:02.399</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

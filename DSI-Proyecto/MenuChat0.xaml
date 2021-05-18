@@ -51,7 +51,7 @@
 
                 <StackPanel Margin="60,145,0,40" Grid.Column="0"  Grid.Row= "1"  HorizontalAlignment="Left" Orientation="Horizontal" VerticalAlignment="Top"  >
 
-                    <Button Margin="0,0,0,0" x:Name="BackButton" Background="Transparent"  CornerRadius="70">
+                    <Button Margin="0,0,0,0" x:Name="BackButton" Background="Transparent"  CornerRadius="70" Click="BackButton_Click">
                         <StackPanel HorizontalAlignment="Right" Orientation="Horizontal">
                             <Image Source="Assets/atras.png"  Height="35"/>
                         </StackPanel>
@@ -67,7 +67,7 @@
 
                 <StackPanel Margin="-10,0,0,40" Grid.Column="0"  Grid.Row= "1"  HorizontalAlignment="Center" Orientation="Horizontal" VerticalAlignment="Bottom"  >
 
-                    <Button Margin="15,0,0,0" x:Name="ShopButton" Background="Transparent"  CornerRadius="70">
+                    <Button Margin="15,0,0,0" x:Name="ShopButton" Background="Transparent"  CornerRadius="70" Click="ShopButton_Click">
                         <StackPanel HorizontalAlignment="Right" Orientation="Horizontal">
                             <Image Source="Assets/home.png"  Height="35"/>
                         </StackPanel>

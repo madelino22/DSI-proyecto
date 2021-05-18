@@ -26,5 +26,21 @@ namespace DSI_Proyecto
         {
             this.InitializeComponent();
         }
+
+        private void MessagesButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(MenuChat0));
+
+        }
+
+        private void ShopButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(MenuTienda0));
+        }
+
+        private void OptionsButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(movilOpciones0));
+        }
     }
 }

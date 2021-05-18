@@ -26,5 +26,15 @@ namespace DSI_Proyecto
         {
             this.InitializeComponent();
         }
+
+        private void BackButton_Click(object sender, RoutedEventArgs e)
+        {
+            App.TryGoBack();
+        }
+
+        private void ShopButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(MenuPausa));
+        }
     }
 }
