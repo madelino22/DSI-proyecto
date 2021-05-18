@@ -17,15 +17,18 @@ using Windows.UI.Xaml.Navigation;
 
 namespace DSI_Proyecto
 {
+    
     /// <summary>
     /// Proporciona un comportamiento específico de la aplicación para complementar la clase Application predeterminada.
     /// </summary>
     sealed partial class App : Application
     {
+        public enum Idiomas { ESPAÑOL, INGLES, CHINO, JAPONES };
         /// <summary>
         /// Inicializa el objeto de aplicación Singleton. Esta es la primera línea de código creado
         /// ejecutado y, como tal, es el equivalente lógico de main() o WinMain().
         /// </summary>
+        private static Idiomas idiomaActual = Idiomas.ESPAÑOL;
         public App()
         {
             this.InitializeComponent();
@@ -105,6 +108,16 @@ namespace DSI_Proyecto
                 return true;
             }
             return false;
+        }
+
+        public static void changeIdioma(Idiomas idioma)
+        {
+            idiomaActual = idioma;
+        }
+        
+        public static Idiomas getIdioma()
+        {
+            return idiomaActual;
         }
     }
 }

@@ -38,10 +38,10 @@
 
                 <Button x:Name="backButton" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Top" Style="{StaticResource NavigationBackButtonNormalStyle}" Click="backButton_Click" Margin="-150,70,0,0"/>
                 <StackPanel x:Name="panelOpciones" Grid.Row="0" Grid.RowSpan="7" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0,0,0,0" Spacing="0">
-                    <Button x:Name="chinoButton" Content="官话" Style="{StaticResource EstiloBotones}"/>
-                    <Button x:Name="españolButton" Content="Español" Style="{StaticResource EstiloBotones}"/>
-                    <Button x:Name="inglesButton" Content="English" Style="{StaticResource EstiloBotones}"/>
-                    <Button x:Name="japonesButton" Content="日本語" Style="{StaticResource EstiloBotones}"/>
+                    <Button x:Name="chinoButton" Content="官话" Style="{StaticResource EstiloBotones}" Click="chinoButton_Click"/>
+                    <Button x:Name="españolButton" Content="Español" Style="{StaticResource EstiloBotones}" Click="españolButton_Click"/>
+                    <Button x:Name="inglesButton" Content="English" Style="{StaticResource EstiloBotones}" Click="inglesButton_Click"/>
+                    <Button x:Name="japonesButton" Content="日本語" Style="{StaticResource EstiloBotones}" Click="japonesButton_Click"/>
                 </StackPanel>
                 <StackPanel x:Name="panelImagenes" Grid.Row="2" Grid.RowSpan="7" VerticalAlignment="Top" HorizontalAlignment="Left" Spacing="0" Margin="-10,-0,0,0" Height="300">
                     <Image Source="Assets/banderaChina.png" Height="20" Width="60" Margin="0,25,0,0" />

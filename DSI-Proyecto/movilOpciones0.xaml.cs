@@ -45,5 +45,33 @@ namespace DSI_Proyecto
         {
             App.TryGoBack();
         }
+
+        override protected void OnNavigatedTo(NavigationEventArgs e)
+        {
+            switch (App.getIdioma())
+            {
+                case App.Idiomas.ESPAÑOL:
+                    IdiomaButton.Content = "Idioma";
+                    GraficosButton.Content = "Gráficos";
+                    salirButton.Content = "Salir";
+                    break;
+                case App.Idiomas.INGLES:
+                    IdiomaButton.Content = "Language";
+                    GraficosButton.Content = "Video";
+                    salirButton.Content = "Quit";
+                    break;
+                case App.Idiomas.CHINO:
+                    IdiomaButton.Content = "成语";
+                    GraficosButton.Content = "图形";
+                    salirButton.Content = "离开";
+                    break;
+                case App.Idiomas.JAPONES:
+                    IdiomaButton.Content = "熟語";
+                    GraficosButton.Content = "グラフィック";
+                    salirButton.Content = "去る";
+                    break;
+            }
+            
+        }
     }
 }

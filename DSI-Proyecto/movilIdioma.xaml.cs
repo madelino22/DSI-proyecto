@@ -31,5 +31,25 @@ namespace DSI_Proyecto
         {
             App.TryGoBack();
         }
+
+        private void chinoButton_Click(object sender, RoutedEventArgs e)
+        {
+            App.changeIdioma(App.Idiomas.CHINO);
+        }
+
+        private void españolButton_Click(object sender, RoutedEventArgs e)
+        {
+            App.changeIdioma(App.Idiomas.ESPAÑOL);
+        }
+
+        private void inglesButton_Click(object sender, RoutedEventArgs e)
+        {
+            App.changeIdioma(App.Idiomas.INGLES);
+        }
+
+        private void japonesButton_Click(object sender, RoutedEventArgs e)
+        {
+            App.changeIdioma(App.Idiomas.JAPONES);
+        }
     }
 }
