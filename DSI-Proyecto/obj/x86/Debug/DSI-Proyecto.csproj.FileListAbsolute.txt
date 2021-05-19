@@ -123,77 +123,6 @@ C:\Users\roy_x\OneDrive\Escritorio\GitHub\DSI-proyecto\DSI-Proyecto\obj\x86\Debu
 C:\Users\roy_x\OneDrive\Escritorio\GitHub\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\movilGraficos.xbf
 C:\Users\roy_x\OneDrive\Escritorio\GitHub\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\movilIdioma.xbf
 C:\Users\roy_x\OneDrive\Escritorio\GitHub\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\DSI-Proyecto.csprojAssemblyReference.cache
-C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\App.xbf
-C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\MainPage.xbf
-C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\MenuPausa.xbf
-C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\MenuPrincipal.xbf
-C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\movilGraficos.xbf
-C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\movilIdioma.xbf
-C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\movilOpciones0.xbf
-C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\DSI-Proyecto.xr.xml
-C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\DSI-Proyecto.exe
-C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\DSI-Proyecto.pdb
-C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\resources.pri
-C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\AppxManifest.xml
-C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\Core\AppxManifest.xml
-C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\Core\DSI-Proyecto.exe
-C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\DSI-Proyecto.build.appxrecipe
-C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\System.Runtime.dll
-C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\Microsoft.UI.Xaml.Markup.winmd
-C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\DSI-Proyecto.csprojAssemblyReference.cache
-C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\App.g.i.cs
-C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\App.g.cs
-C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\MainPage.g.i.cs
-C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\MainPage.g.cs
-C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\MenuPausa.g.i.cs
-C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\MenuPausa.g.cs
-C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\MenuPrincipal.g.i.cs
-C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\MenuPrincipal.g.cs
-C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\movilGraficos.g.i.cs
-C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\movilGraficos.g.cs
-C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\movilIdioma.g.i.cs
-C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\movilIdioma.g.cs
-C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\movilOpciones0.g.i.cs
-C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\movilOpciones0.g.cs
-C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\XamlTypeInfo.g.cs
-C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\App.xaml
-C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\MenuPausa.xaml
-C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\MenuPrincipal.xaml
-C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\movilGraficos.xaml
-C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\movilIdioma.xaml
-C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\movilOpciones0.xaml
-C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\MainPage.xaml
-C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\App.xbf
-C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\MenuPausa.xbf
-C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\MenuPrincipal.xbf
-C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\movilGraficos.xbf
-C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\movilIdioma.xbf
-C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\movilOpciones0.xbf
-C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\MainPage.xbf
-C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\XamlSaveStateFile.xml
-C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\DSI-Proyecto.csproj.CoreCompileInputs.cache
-C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\DSI-Proyecto.csproj.CopyComplete
-C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\DSI-Proyecto.exe
-C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\DSI-Proyecto.pdb
-C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\ResourceHandlingTask.state
-C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\priconfig.xml
-C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\priconfig.xml.intermediate
-C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\unfiltered.layout.resfiles
-C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\unfiltered.layout.resfiles.intermediate
-C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\filtered.layout.resfiles
-C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\filtered.layout.resfiles.intermediate
-C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\excluded.layout.resfiles
-C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\excluded.layout.resfiles.intermediate
-C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\resources.resfiles
-C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\resources.resfiles.intermediate
-C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\pri.resfiles
-C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\pri.resfiles.intermediate
-C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\qualifiers.txt
-C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\qualifiers.txt.intermediate
-C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
-C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\ProjectArchitectures.txt
-C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885238160000000.json
-C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885274160000000.json
 D:\uni\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\movilGraficos.xbf
 D:\uni\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\movilIdioma.xbf
 D:\uni\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\movilOpciones0.xbf
@@ -231,16 +160,6 @@ D:\uni\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\MenuTienda0.g.i.cs
 D:\uni\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\MenuTienda0.g.cs
 D:\uni\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\MenuTienda0.xaml
 D:\uni\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\MenuTienda0.xbf
-C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\MenuChat0.xbf
-C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\MenuTienda0.xbf
-C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\MenuChat0.g.i.cs
-C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\MenuChat0.g.cs
-C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\MenuTienda0.g.i.cs
-C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\MenuTienda0.g.cs
-C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\MenuChat0.xaml
-C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\MenuTienda0.xaml
-C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\MenuChat0.xbf
-C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\MenuTienda0.xbf
 C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\DSI-Proyecto.csprojAssemblyReference.cache
 C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\App.g.i.cs
 C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\App.g.cs
@@ -331,3 +250,88 @@ C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\MenuChat1.g.i.cs
 C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\MenuChat1.g.cs
 C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\MenuChat1.xaml
 C:\Users\MASTER\Desktop\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\MenuChat1.xbf
+C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\App.xbf
+C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\MainPage.xbf
+C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\MenuChat0.xbf
+C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\MenuChat1.xbf
+C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\MenuPausa.xbf
+C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\MenuPrincipal.xbf
+C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\MenuTienda0.xbf
+C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\movilGraficos.xbf
+C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\movilIdioma.xbf
+C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\movilOpciones0.xbf
+C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\DSI-Proyecto.xr.xml
+C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\DSI-Proyecto.exe
+C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\DSI-Proyecto.pdb
+C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\resources.pri
+C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\AppxManifest.xml
+C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\Core\AppxManifest.xml
+C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\Core\DSI-Proyecto.exe
+C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\DSI-Proyecto.build.appxrecipe
+C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\System.Runtime.dll
+C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\Microsoft.UI.Xaml.Markup.winmd
+C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\App.g.i.cs
+C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\App.g.cs
+C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\MainPage.g.i.cs
+C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\MainPage.g.cs
+C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\MenuChat0.g.i.cs
+C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\MenuChat0.g.cs
+C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\MenuChat1.g.i.cs
+C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\MenuChat1.g.cs
+C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\MenuPausa.g.i.cs
+C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\MenuPausa.g.cs
+C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\MenuPrincipal.g.i.cs
+C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\MenuPrincipal.g.cs
+C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\MenuTienda0.g.i.cs
+C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\MenuTienda0.g.cs
+C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\movilGraficos.g.i.cs
+C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\movilGraficos.g.cs
+C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\movilIdioma.g.i.cs
+C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\movilIdioma.g.cs
+C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\movilOpciones0.g.i.cs
+C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\movilOpciones0.g.cs
+C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\XamlTypeInfo.g.cs
+C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\App.xaml
+C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\MainPage.xaml
+C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\MenuChat0.xaml
+C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\MenuChat1.xaml
+C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\MenuPausa.xaml
+C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\MenuPrincipal.xaml
+C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\MenuTienda0.xaml
+C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\movilGraficos.xaml
+C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\movilIdioma.xaml
+C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\movilOpciones0.xaml
+C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\App.xbf
+C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\MainPage.xbf
+C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\MenuChat0.xbf
+C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\MenuChat1.xbf
+C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\MenuPausa.xbf
+C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\MenuPrincipal.xbf
+C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\MenuTienda0.xbf
+C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\movilGraficos.xbf
+C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\movilIdioma.xbf
+C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\movilOpciones0.xbf
+C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\XamlSaveStateFile.xml
+C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\DSI-Proyecto.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\DSI-Proyecto.csproj.CopyComplete
+C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\DSI-Proyecto.exe
+C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\DSI-Proyecto.pdb
+C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\ResourceHandlingTask.state
+C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\priconfig.xml
+C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\priconfig.xml.intermediate
+C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\unfiltered.layout.resfiles
+C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\unfiltered.layout.resfiles.intermediate
+C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\filtered.layout.resfiles
+C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\filtered.layout.resfiles.intermediate
+C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\excluded.layout.resfiles
+C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\excluded.layout.resfiles.intermediate
+C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\resources.resfiles
+C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\resources.resfiles.intermediate
+C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\pri.resfiles
+C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\pri.resfiles.intermediate
+C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\qualifiers.txt
+C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\qualifiers.txt.intermediate
+C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\ProjectArchitectures.txt
+C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885238160000000.json
+C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\DSI-Proyecto.csprojAssemblyReference.cache

@@ -13,6 +13,7 @@ using Windows.UI.Xaml.Controls.Primitives;
 using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
+using Windows.UI.Xaml.Media.Imaging;
 using Windows.UI.Xaml.Navigation;
 
 // La plantilla de elemento Página en blanco está documentada en https://go.microsoft.com/fwlink/?LinkId=234238
@@ -45,6 +46,22 @@ namespace DSI_Proyecto
             string nombre = s.Name;
 
             this.Frame.Navigate(typeof(MenuChat1), nombre);
+        }
+
+        override protected void OnNavigatedTo(NavigationEventArgs e)
+        {
+            BitmapImage bitmapImage = new BitmapImage();
+           
+           
+            if (App.getDaltonismo())
+            {
+                bitmapImage.UriSource = new Uri(movil.BaseUri, "/Assets/movilchatDaltonismo.PNG");
+            }
+            else
+            {
+                bitmapImage.UriSource = new Uri(movil.BaseUri, "/Assets/movilchat.PNG");
+            }
+            movil.Source = bitmapImage;
         }
     }
 }

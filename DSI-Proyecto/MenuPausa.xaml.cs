@@ -5,6 +5,7 @@ using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.UI;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -46,6 +47,12 @@ namespace DSI_Proyecto
         private void backButton_Click(object sender, RoutedEventArgs e)
         {
             App.TryGoBack();
+        }
+
+        override protected void OnNavigatedTo(NavigationEventArgs e)
+        {
+            if (App.getDaltonismo()) MessagesButton.Background = new SolidColorBrush(Colors.Blue);
+            else MessagesButton.Background = new SolidColorBrush(Colors.Green);
         }
     }
 }

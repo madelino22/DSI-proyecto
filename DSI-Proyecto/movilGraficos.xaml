@@ -45,7 +45,7 @@
                 <StackPanel x:Name="panelOpciones" Grid.Row="1" Grid.RowSpan="3" VerticalAlignment="Center" HorizontalAlignment="Center" Spacing="25" Margin="0,100,0,0">
                 <Button x:Name="PantallaCompletaButton" Content="Pantalla completa" Style="{StaticResource EstiloBotones}"/>
                 <Button x:Name="Resolución" Content="Resolución" Style="{StaticResource EstiloBotones}"/>
-                <Button x:Name="ModoDaltonicoButton" Content="Modo daltónico" Style="{StaticResource EstiloBotones}"/>
+                <Button x:Name="ModoDaltonicoButton" Content="Modo daltónico" Style="{StaticResource EstiloBotones}" Click="ModoDaltonicoButton_Click"/>
             </StackPanel>
             <StackPanel x:Name="panelImagenes" Grid.Row="2" Grid.RowSpan="3" VerticalAlignment="Center" HorizontalAlignment="Left" Spacing="50" Margin="0,0,0,0" Height="379">
                 <Image Source="Assets/completa.png" Height="20" Width="60" Margin="-10,30,0,0" />

@@ -62,5 +62,11 @@ namespace DSI_Proyecto
         {
 
         }
+
+        private void ModoDaltonicoButton_Click(object sender, RoutedEventArgs e)
+        {
+            App.changeDaltonismo();
+            App.TryGoBack();
+        }
     }
 }

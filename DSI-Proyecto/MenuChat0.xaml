@@ -55,7 +55,7 @@
         <Viewbox Grid.Column="1">
             <Grid>
                 <!--imagen movil-->
-                <Image HorizontalAlignment="Center" VerticalAlignment="Center" Source="Assets/movilchat.png"/>
+                <Image x:Name="movil" HorizontalAlignment="Center" VerticalAlignment="Center" Source="Assets/movilchat.png"/>
 
 
                 <StackPanel Margin="60,145,0,40" Grid.Column="0"  Grid.Row= "1"  HorizontalAlignment="Left" Orientation="Horizontal" VerticalAlignment="Top"  >

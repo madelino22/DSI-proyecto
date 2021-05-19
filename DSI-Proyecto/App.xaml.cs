@@ -29,6 +29,7 @@ namespace DSI_Proyecto
         /// ejecutado y, como tal, es el equivalente lógico de main() o WinMain().
         /// </summary>
         private static Idiomas idiomaActual = Idiomas.ESPAÑOL;
+        private static bool daltonismo = false;
         public App()
         {
             this.InitializeComponent();
@@ -119,5 +120,8 @@ namespace DSI_Proyecto
         {
             return idiomaActual;
         }
+
+        public static void changeDaltonismo() { daltonismo = !daltonismo; }
+        public static bool getDaltonismo() { return daltonismo; }
     }
 }
