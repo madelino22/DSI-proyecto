@@ -166,6 +166,9 @@
     <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\sonido.png">
       <PackagePath>Assets\sonido.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\Strike.png">
+      <PackagePath>Assets\Strike.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\Assets\taberna.png">
       <PackagePath>Assets\taberna.png</PackagePath>
     </AppxPackagedFile>

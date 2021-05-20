@@ -20,7 +20,7 @@
         </Style>
 
     </Page.Resources>
-    
+
     <Grid PointerReleased="Grid_PointerReleased">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="2*"/>
@@ -39,8 +39,11 @@
         <Viewbox Grid.Column="1" Grid.Row="1" Stretch="Fill" >
             <Image Source="Assets/cliente.png"/>
         </Viewbox>
-        <Viewbox  Grid.Column="1" Grid.Row="0" Stretch="Fill">
-            <Image Source="Assets/cola.png"/>
+        <Viewbox  Grid.Column="1" Grid.Row="0" Stretch="Fill" HorizontalAlignment="Right">
+            <Grid>
+                <Image Source="Assets/cola.png"/>
+                <TextBlock x:Name="dineroTex" Text="0$" FontSize="50" HorizontalAlignment="Right"/>
+            </Grid>
         </Viewbox>
 
         <!--Abajo derecha-->
@@ -52,7 +55,7 @@
                     <Button x:Name="DNIButton" Content="DNI" Margin="10,53,0,0" Style="{StaticResource EstiloBotones}"/>
                 </StackPanel>
                 <Button  x:Name="AceptarButton" Content="Aceptar" VerticalAlignment="Bottom" Margin="10,0,0,46"
-                            Style="{StaticResource EstiloBotones}"/>
+                            Style="{StaticResource EstiloBotones}" Click="AceptarButton_Click"/>
                 <Button x:Name="RechazarButton" Content="Rechazar" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="0,0,10,46"
                             Style="{StaticResource EstiloBotones}"/>
             </Grid>
@@ -75,16 +78,24 @@
                 </Canvas>
             </Grid>
         </Viewbox>
-      
+
         <!--Izquierda-->
         <Viewbox Grid.Row="1" Grid.Column="0" VerticalAlignment="Bottom" HorizontalAlignment="Center" >
             <StackPanel Orientation="Horizontal" Margin="0,0,0,20">
-                <Image Source="Assets/libro.png" PointerPressed= "Image_PointerPressed_1" PointerReleased="Image_PointerReleased_1" MaxHeight="100" MaxWidth="100" HorizontalAlignment="Left" Height="Auto" Margin="0,0,700,0"/>
-
-                <Image Grid.Column="0" PointerPressed="Image_PointerPressed" PointerReleased="Image_PointerReleased" Grid.Row="1" Source="Assets/movil.png" MaxHeight="100" MaxWidth="100" HorizontalAlignment="Right"/>
-            </StackPanel>
+                    <Image Source="Assets/libro.png" PointerPressed= "Image_PointerPressed_1" PointerReleased="Image_PointerReleased_1" MaxHeight="100" MaxWidth="100" HorizontalAlignment="Left" Height="Auto" Margin="0,0,700,0"/>
+                    <Image Grid.Column="0" PointerPressed="Image_PointerPressed" PointerReleased="Image_PointerReleased" Grid.Row="1" Source="Assets/movil.png" MaxHeight="100" MaxWidth="100" HorizontalAlignment="Right"/>
+                </StackPanel>
+               
         </Viewbox>
 
+
+        <Viewbox Grid.Row="0" Grid.Column="0" VerticalAlignment="Top" HorizontalAlignment="Right" Height="75">
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Top">
+                <Image x:Name="strike1" Source="Assets/Strike.png" Height="100"></Image>
+                <Image x:Name="strike2" Source="Assets/Strike.png" Height="100"></Image>
+                <Image x:Name="strike3" Source="Assets/Strike.png" Height="100"></Image>
+            </StackPanel>
+        </Viewbox>
     </Grid>
 </Page>
 

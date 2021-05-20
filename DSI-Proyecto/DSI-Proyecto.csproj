@@ -199,6 +199,7 @@
     <Content Include="Assets\sech.PNG" />
     <Content Include="Assets\shop.png" />
     <Content Include="Assets\sonido.png" />
+    <Content Include="Assets\Strike.png" />
     <Content Include="Assets\taberna.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />

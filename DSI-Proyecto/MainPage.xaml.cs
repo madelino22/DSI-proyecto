@@ -23,6 +23,8 @@ namespace DSI_Proyecto
     /// </summary>
     public sealed partial class MainPage : Page
     {
+        int strike = 0;
+        int dinero = 0;
         bool movilClick = false;
         bool libroClick = false;
         bool botIzq = false;
@@ -38,7 +40,7 @@ namespace DSI_Proyecto
 
         private void Image_PointerReleased(object sender, PointerRoutedEventArgs e)
         {
-            if(movilClick) this.Frame.Navigate(typeof(MenuPausa));
+            if (movilClick) this.Frame.Navigate(typeof(MenuPausa));
 
             movilClick = false;
         }
@@ -82,7 +84,7 @@ namespace DSI_Proyecto
         {
             if (LibroCentro.Visibility == Visibility.Visible)
             {
-                if(e.GetCurrentPoint(MiCanvas).Properties.IsLeftButtonPressed) botIzq = true;
+                if (e.GetCurrentPoint(MiCanvas).Properties.IsLeftButtonPressed) botIzq = true;
             }
         }
 
@@ -139,7 +141,6 @@ namespace DSI_Proyecto
                     DrunkButton.Content = "酩酊";
                     break;
             }
-
         }
         private void Button_Click(object sender, RoutedEventArgs e)
         {
@@ -215,6 +216,28 @@ namespace DSI_Proyecto
                 case App.Idiomas.JAPONES:
                     Normas.Text = "- 重度の中毒状態にある人は、敷地内に立ち入ることができません。";
                     break;
+            }
+        }
+
+        private void strikeFunc()
+        {
+            strike++;
+            if (strike == 1) strike1.Opacity = 0;
+            else if (strike == 2) strike2.Opacity = 0;
+            else if (strike == 3) strike3.Opacity = 0;
+        }
+
+        private void AceptarButton_Click(object sender, RoutedEventArgs e)
+        {
+            if (strike == 3) return;
+            Random rnd = new Random();
+            int s = rnd.Next(0, 5);
+            if (s == 4)
+                strikeFunc();
+            else
+            {
+                dinero += 100;
+                dineroTex.Text = dinero + "$";
             }
         }
     }
