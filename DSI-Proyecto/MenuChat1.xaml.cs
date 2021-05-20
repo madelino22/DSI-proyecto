@@ -65,13 +65,22 @@ namespace DSI_Proyecto
 
                 m1.Text += nombre;
             }
-            
+
+            BitmapImage bitmapImage = new BitmapImage();
+            if (App.getDaltonismo())
+            {
+                bitmapImage.UriSource = new Uri(movil.BaseUri, "/Assets/movilchatDaltonismo.PNG");
+            }
+            else
+            {
+                bitmapImage.UriSource = new Uri(movil.BaseUri, "/Assets/movilchat.PNG");
+            }
+            movil.Source = bitmapImage;
+
         }
         private void HomeButton_Click(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(MenuPausa));
         }
-
-        
     }
 }

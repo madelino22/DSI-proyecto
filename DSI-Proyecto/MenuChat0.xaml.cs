@@ -50,9 +50,7 @@ namespace DSI_Proyecto
 
         override protected void OnNavigatedTo(NavigationEventArgs e)
         {
-            BitmapImage bitmapImage = new BitmapImage();
-           
-           
+            BitmapImage bitmapImage = new BitmapImage();           
             if (App.getDaltonismo())
             {
                 bitmapImage.UriSource = new Uri(movil.BaseUri, "/Assets/movilchatDaltonismo.PNG");
