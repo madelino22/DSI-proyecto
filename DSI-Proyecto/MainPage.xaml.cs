@@ -240,5 +240,14 @@ namespace DSI_Proyecto
                 dineroTex.Text = dinero + "$";
             }
         }
+
+        private void DNIButton_Click(object sender, RoutedEventArgs e)
+        {
+            if (DNIcentro.Opacity==0)
+            {
+                DNIcentro.Opacity = 1;
+            }
+            else DNIcentro.Opacity = 0;
+        }
     }
 }

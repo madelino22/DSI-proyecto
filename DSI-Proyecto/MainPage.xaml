@@ -52,7 +52,7 @@
                 <StackPanel Orientation="Vertical" VerticalAlignment="Top"
                              Margin="0,90,400,0" MaxHeight="200" MaxWidth="100">
                     <Button x:Name="CachearButton" Content="Cachear" Style= "{StaticResource EstiloBotones}"/>
-                    <Button x:Name="DNIButton" Content="DNI" Margin="10,53,0,0" Style="{StaticResource EstiloBotones}"/>
+                    <Button x:Name="DNIButton" Content="DNI" Margin="10,53,0,0" Style="{StaticResource EstiloBotones}" Click="DNIButton_Click"/>
                 </StackPanel>
                 <Button  x:Name="AceptarButton" Content="Aceptar" VerticalAlignment="Bottom" Margin="10,0,0,46"
                             Style="{StaticResource EstiloBotones}" Click="AceptarButton_Click"/>
@@ -73,6 +73,12 @@
                             <Button x:Name="DocumentationButton" Content="Documentación" Margin="48,159,0,0" Style= "{StaticResource EstiloBotones}" VerticalAlignment="Top" Click="Button_Click_2"/>
                             <Button x:Name="DrunkButton" Content="Embriaguez" Margin="60,217,0,0" Style= "{StaticResource EstiloBotones}" VerticalAlignment="Top" Click="Button_Click_3" />
                             <TextBlock x:Name="Normas" FontSize="20" Text="" Margin="294,62,57,97" TextWrapping="Wrap" MaxHeight="200" MaxWidth="200" HorizontalTextAlignment="Center"/>
+                        </Grid>
+                    </ContentControl>
+
+                    <ContentControl x:Name="DNIcentro" Opacity="0" RenderTransformOrigin="0.496,0.528" Canvas.Left="222" Canvas.Top="322">
+                        <Grid>
+                            <Image  Source="Assets/DNI.PNG" />
                         </Grid>
                     </ContentControl>
                 </Canvas>
