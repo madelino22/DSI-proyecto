@@ -106,6 +106,7 @@
     <RootType FullName="Windows.UI.Xaml.Controls.ContentControl">
       <RootProperty Name="RenderTransformOrigin" />
       <RootProperty Name="Content" />
+      <RootProperty Name="IsEnabled" />
       <RootProperty Name="Opacity" />
       <RootEvent Name="PointerMoved" />
       <RootEvent Name="PointerPressed" />

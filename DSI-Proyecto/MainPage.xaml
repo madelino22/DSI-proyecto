@@ -76,7 +76,7 @@
                         </Grid>
                     </ContentControl>
 
-                    <ContentControl x:Name="DNIcentro" Opacity="0" RenderTransformOrigin="0.496,0.528" Canvas.Left="222" Canvas.Top="322">
+                    <ContentControl x:Name="DNIcentro" IsEnabled="False" Opacity="0" RenderTransformOrigin="0.496,0.528" Canvas.Left="222" Canvas.Top="322">
                         <Grid>
                             <Image  Source="Assets/DNI.PNG" />
                         </Grid>

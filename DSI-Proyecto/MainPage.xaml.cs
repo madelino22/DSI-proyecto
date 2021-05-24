@@ -243,11 +243,15 @@ namespace DSI_Proyecto
 
         private void DNIButton_Click(object sender, RoutedEventArgs e)
         {
-            if (DNIcentro.Opacity==0)
+            if (DNIcentro.IsEnabled == false)
             {
+                DNIcentro.IsEnabled = true;
                 DNIcentro.Opacity = 1;
             }
-            else DNIcentro.Opacity = 0;
+            else {
+                DNIcentro.IsEnabled = true;
+                DNIcentro.Opacity = 0;
+            } 
         }
     }
 }
