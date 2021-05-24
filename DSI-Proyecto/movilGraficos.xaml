@@ -42,7 +42,7 @@
                         <Image Source="Assets/atras.png"  Height="35"/>
                     </StackPanel>
                 </Button>
-                <StackPanel x:Name="panelOpciones" Grid.Row="1" Grid.RowSpan="3" VerticalAlignment="Center" HorizontalAlignment="Center" Spacing="25" Margin="0,100,0,0">
+                <StackPanel x:Name="panelOpciones" Grid.Row="1" Grid.RowSpan="3" VerticalAlignment="Center" HorizontalAlignment="Center" Spacing="25" Margin="0,-40,0,0">
                 <Button x:Name="PantallaCompletaButton" Content="Pantalla completa" Style="{StaticResource EstiloBotones}"/>
                 <Button x:Name="Resolución" Content="Resolución" Style="{StaticResource EstiloBotones}"/>
                 <Button x:Name="ModoDaltonicoButton" Content="Modo daltónico" Style="{StaticResource EstiloBotones}" Click="ModoDaltonicoButton_Click"/>

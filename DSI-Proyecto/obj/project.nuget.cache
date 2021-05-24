@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "juuw4QYX/iK2RyAnrvJzQ2JP/YPJKCiRY4vG5xXQy84P8ykt3gDOW6yXorcx5XKVA/swPfnXkwp+KdFAw9hY4Q==",
+  "dgSpecHash": "NIrCg96zc380+NFjRexdSy+RKLxFZqhPI8Ru5MNqH/LULr53baGFYgas+yDvAjwmRbA7uwA+nv14TiEftiWpNA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\usuario\\Desktop\\UNI\\2º\\2º Cuatri\\DSI\\DSI-proyecto\\DSI-Proyecto\\DSI-Proyecto.csproj",
+  "projectFilePath": "C:\\Users\\roy_x\\OneDrive\\Escritorio\\GitHub\\DSI-proyecto\\DSI-Proyecto\\DSI-Proyecto.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.native.compiler\\2.2.8-rel-28605-00\\microsoft.net.native.compiler.2.2.8-rel-28605-00.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.uwpcoreruntimesdk\\2.2.10\\microsoft.net.uwpcoreruntimesdk.2.2.10.nupkg.sha512",

@@ -334,3 +334,8 @@ C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x8
 C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\ProjectArchitectures.txt
 C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885238160000000.json
 C:\Users\usuario\Desktop\UNI\2º\2º Cuatri\DSI\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\DSI-Proyecto.csprojAssemblyReference.cache
+C:\Users\roy_x\OneDrive\Escritorio\GitHub\DSI-proyecto\DSI-Proyecto\bin\x86\Debug\MenuChat1.xbf
+C:\Users\roy_x\OneDrive\Escritorio\GitHub\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\MenuChat1.g.i.cs
+C:\Users\roy_x\OneDrive\Escritorio\GitHub\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\MenuChat1.g.cs
+C:\Users\roy_x\OneDrive\Escritorio\GitHub\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\MenuChat1.xaml
+C:\Users\roy_x\OneDrive\Escritorio\GitHub\DSI-proyecto\DSI-Proyecto\obj\x86\Debug\MenuChat1.xbf
